@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JiinWoo's Blog | Feed]]></title><description><![CDATA[그날그날 기록하기 위한 블로그입니다.]]></description><link>https://jiinwoo.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 26 May 2020 14:12:47 GMT</lastBuildDate><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 3 )]]></title><description><![CDATA[저번 포스트에서 귀찮아서 작성하지 못했던 security 관련 설정파일들을 작성해보자. Provider 구현체 DaoAuthenticationProvider UserDetailsService 구현체 CustomUserDetailsService User…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_3/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_3/</guid><pubDate>Tue, 26 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;저번 포스트에서 &lt;del&gt;귀찮아서&lt;/del&gt; 작성하지 못했던 security 관련 설정파일들을 작성해보자.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JiinWoo's Blog | Feed]]></title><description><![CDATA[그날그날 기록하기 위한 블로그입니다.]]></description><link>https://jiinwoo.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 May 2020 15:00:41 GMT</lastBuildDate><item><title><![CDATA[스프링 부트에서 @NotEmpty 찾을 수 없다고 할 때]]></title><description><![CDATA[스프링부트와 리액트로 트렐로 클론코딩을 하던 도중 UserEntity내에 @NotEmpty를 사용했는데 이게 import…]]></description><link>https://jiinwoo.github.io/springboot-validate-error/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-validate-error/</guid><pubDate>Wed, 27 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;스프링부트와 리액트로 트렐로 클론코딩을 하던 도중 UserEntity내에 @NotEmpty를 사용했는데 이게 import가 안됀단다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fcdbe3844a3b9f1cd865f809c5245a7c/7abd6/1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.43213728549142%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABLElEQVQoz5WTW3LCMAxFsx1s+Rm/EhISCl/d/34usgdo2qEZ+DgjxaO5vpKcLjmFGCMjQSQgpYAQ7yGlbLScWS9XdEs2GMcR05RQSg/vHZRSz+I9iOhXPk4ndLl3CCGihATvPKy1MMY20XepYlorFpxZMBCc09DWPO1/0vIjJ86b4DwrpGhgDe3OaQ9RI9eW8cgOo8KQ62I8O/WtXWsdjLZ8K/0r+vdciANSGdA5q5CDbsuoc6jzaEh6y932giboWXDoDQtGGPpshkJs6g/sMFdBXkgJFj0LOqNBin5cPuAz9RLu6I7kuqEuZTlfsKxnzEtl5Vsm5HJilhYLk8oMl6YNM2yNcUTiJze0ZxdwTAld+fqGm66QeYXiwjo71VAt1xzr94Hbe4W8/yUPbkopUxgR0RpXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;1&quot;
+        title=&quot;1&quot;
+        src=&quot;/static/fcdbe3844a3b9f1cd865f809c5245a7c/799d3/1.png&quot;
+        srcset=&quot;/static/fcdbe3844a3b9f1cd865f809c5245a7c/00d96/1.png 148w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/0b23c/1.png 295w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/799d3/1.png 590w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/2a3d6/1.png 885w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/ae92f/1.png 1180w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/7abd6/1.png 1282w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;나는 기존에 만들어둔 코드를 똑같이 한번더 만들면서 진행하는 거라 문제가 없을 줄 알았는데 한참을 삽질해서 겨우 알아냈다.
+project를 attach해서 여러창에 띄워놔서 그런가 했는데 아니고 스프링 부트 버전 문제였다.&lt;/p&gt;
+&lt;p&gt;갓 만든 프로젝트는 스프링부트 2.3.0을 사용하고 있었고 기존에 만들어둔 프로젝트 스프링부트 버전은 2.2.6이었다..&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/48614773/spring-boot-validation-annotations-valid-and-notblank-not-working&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;스택오버플로우&lt;/a&gt;
+답변을 참고해보면&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;xml&quot;&gt;&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;org.springframework.boot&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;spring-boot-starter-validation&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이걸 추가해줘야한다고 한다.  끗&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 3 )]]></title><description><![CDATA[저번 포스트에서 귀찮아서 작성하지 못했던 security 관련 설정파일들을 작성해보자. Provider 구현체 DaoAuthenticationProvider UserDetailsService 구현체 CustomUserDetailsService User…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_3/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_3/</guid><pubDate>Tue, 26 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;저번 포스트에서 &lt;del&gt;귀찮아서&lt;/del&gt; 작성하지 못했던 security 관련 설정파일들을 작성해보자.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Provider 구현체 DaoAuthenticationProvider&lt;/li&gt;
 &lt;li&gt;UserDetailsService 구현체 CustomUserDetailsService&lt;/li&gt;
