@@ -5,10 +5,10 @@ tags:
   - springboot
 keywords:
   - springboot
-  - @Valid
+  - \@Valid
 ---
 
-스프링부트와 리액트로 트렐로 클론코딩을 하던 도중 UserEntity내에 @NotEmpty를 사용했는데 이게 import가 안됀단다.
+스프링부트와 리액트로 트렐로 클론코딩을 하던 도중 UserEntity내에 \@NotEmpty를 사용했는데 이게 import가 안됀단다.
 ![](1.png)
 >?
  
