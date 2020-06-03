@@ -10,7 +10,8 @@ keywords:
   - react
 ---
 
-> Spring은 배운지 얼마안됐고 security는 더더욱 안됐습니다.
+> Spring은 배운지 얼마안됐고 security는 더더욱 안됐다.
+>
 > 정확하지 않을 수 있습니다.
 ## springboot 프로젝트 생성
 
@@ -61,8 +62,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 attemptAuthentication메소드를 재정의 해주면 된다.
 
 이 필터의 역활은 자기가 가지고있는 AuthenticationManager한테 (인증되지 않은)Authentication을 넘기면서 인증 해달라고 요청
-한 뒤 결과로 (인증된) Authentication을 받아서 successfulAuthentication를 호출하고 다음필터로 넘어간다. 그전에 에러가 발
-생하면 unsuccessfulAuthentication를 호출한다.
+한 뒤 결과로 (인증된) Authentication을 받아서 successfulAuthentication를 호출하고 다음필터로 넘어간다. 그전에 에러가 
+발생하면 unsuccessfulAuthentication를 호출한다.
 
 우선 사용자의 로그인 정보를 담을 DTO를 생성하자
  
@@ -105,7 +106,7 @@ public class JwtAuthenticationToken extends AbstractAuthenticationToken {
     }
 }
 ```
-그리고 attemptAuthentication 메소드를 implement 해주자.
+그리고 attemptAuthentication 추상 메소드를 override해서 구현해주자.
 ![](implement.png)
 ```java
 public class JwtAuthenticationFilter extends AbstractAuthenticationProcessingFilter {
@@ -219,7 +220,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 }
 ```
-여기서 만들어야할 것 
+여기서 아직 구현하지 않은 것들이 있는데 만들어야 할 것들에는 
 1. Provider 구현체 DaoAuthenticationProvider
 2. AuthenticationEntryPoint 구현체 CustomAuthenticationEntryPoint
 3. header인증을 위한 BasicAuthenticationFilter 구현체 JwtAuthorizationFilter

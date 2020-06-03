@@ -14,7 +14,7 @@ keywords:
 ```bash
 npx create-react-app [프로젝트 명] --typescript
 ```
-라우팅을 위해 다음을 설치한다.
+위 커맨드로 프로젝트를 만들어주고 라우팅을 위해 다음을 설치한다.
 ```bash
 npm i react-router-dom @types/react-router-dom history
 ``` 
@@ -43,6 +43,8 @@ export default App;
 일반적으로 [react-router-dom]('https://reacttraining.com/react-router/web/guides/quick-start') 공식 사이트에서는 
 BrowserRouter를 사용하는데 나 같은 경우에는 조금있다가 사용할 redux 미들웨어인 thunk 함수내에서 라우팅을 하기 위해서
 추상화된 BrowserRouter 대신 기본 Router를 사용하고 history를 직접 넣었다.
+
+
 이제 로그인폼 컴포넌트를 만들어보자. 
 ```nashorn js
 npm i formik
