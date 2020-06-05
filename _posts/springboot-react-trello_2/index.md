@@ -220,6 +220,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 }
 ```
+
+> 6/6 UsernamePasswordAuthenticationFilter 대신에 이 필터의 부모클래스인 AbstractAuthenticationProcessingFilter를 상속받아
+>새로만들었는데(JwtAuthenticationFilter) 위와 같이 해주면 오류가난다 ㅠㅠ 왜냐면 기본으로 filterChain에 등록된 UsernamePasswordAuthenticationFilter
+>를 갈아끼우는게 안되기 때문! 
+>대신 .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)요걸로 바꿔주면 
+>다시 작동한다. ㅠㅠ 
+
 여기서 아직 구현하지 않은 것들이 있는데 만들어야 할 것들에는 
 1. Provider 구현체 DaoAuthenticationProvider
 2. AuthenticationEntryPoint 구현체 CustomAuthenticationEntryPoint
