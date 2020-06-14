@@ -4,7 +4,6 @@ date: 2020-06-10
 tags:
   - Spring in action
   - JDBCTemplate
-  - SpringConverter
 keywords:
   -
 ---
@@ -113,79 +112,7 @@ https://github.com/Jpub/SpringInAction5 원 제작자 측이 아닌 출판사 �
 다음과 같이 리팩토링 한다. 메소드에 @ModelAttribute를 붙임으로서 GET메소드에만 model에 적용 되지 않고 해당 컨트롤러
 전체에 적용되도록 한다.
 
-다음은 2번째 Post메소드에 문제를 보자 
-```java
-@Data
-public class Taco {
-
-  // end::allButValidation[]
-  @NotNull
-  @Size(min=5, message="Name must be at least 5 characters long")
-  // tag::allButValidation[]
-  private String name;
-  // end::allButValidation[]
-  @Size(min=1, message="You must choose at least 1 ingredient")
-  // tag::allButValidation[]
-  private List<String> ingredients;
-
-}
-```
-2장 어느 부분인지는 기억이 안난다. 위를 보면 ingredients 타입으로 String을 받고있는데 책 내용을 따라가다 보면
-
-```java
-@Data
-public class Taco {
-	
-	private Long id;
-    private Date createdAt;
-
-	@NotNull
-	@Size(min=5, message="Name must be at least 5 characters long")
-	private String name;
-	
-	@Size(min=1, message="You must choose at least 1 ingredient")
-	private List<Ingredient> ingredients;
-}
-```
-짜잔 Ingredient 타입으로 변경됐다. 여기서 문제는 기본적으로 String 배열은 스프링 컨버터가 알아서 변환해주는데
-특정 타입으로 바꿔버리면 별도의 컨버터를 등록해줘야 하는데 책에는 이런 내용이 없다. 물론 검색하면 스택오버플로우에 
-해결 방법이 있긴 있었다. ~~하지만 책은 그러면 안됐다.~~
-
-```java
-@Component
-public class IngredientByIdConverter implements Converter<String,Ingredient> {
-
-    @Autowired
-    IngredientRepository ingredientRepository;
-
-    @Override
-    public Ingredient convert(String id) {
-        return ingredientRepository.findById(id);
-    }
-}
-```
-이 bean을 config에 추가해주면 된다.
-```java
-@Configuration
-public class WebConfig implements WebMvcConfigurer {
-
-    @Autowired
-    IngredientByIdConverter ingredientByIdConverter;
-
-    @Override
-    public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/").setViewName("home");
-    }
-
-    @Override
-    public void addFormatters(FormatterRegistry registry) {
-        registry.addConverter(ingredientByIdConverter);
-    }
-}
-
-```
-
-이제 3번째 문제를 보자.
+이제 두번째 문제를 보자.
 ```java
 @Repository
 public class JdbcTacoRepository implements TacoRepository {
