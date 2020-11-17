@@ -1,7 +1,8 @@
 module.exports = {
+  faviconUrl: 'favicon.ico',
   /** Site MetaData (Required all)*/
   title: `JiinWoo's Blog`,                           // (* Required)
-  description: `그날그날 기록하기 위한 블로그입니다.`,          // (* Required)
+  description: `어디서 주워들은거 끄적이기`,          // (* Required)
   author: `Jinwoo Jung`,                         // (* Required)
   siteUrl: 'https://jiinwoo.github.io/',                      // (* Required)
     // ex.'https://junhobaik.github.io'
@@ -13,7 +14,7 @@ module.exports = {
     // If the file does not exist, it is replaced by a random image.
 
   /** Home > Bio information*/
-  comment: '그날그날 기록하기 위한 블로그입니다.',
+  comment: '어디서 주워들은거 끄적이기',
   name: 'Jinwoo Jung',
   company: '',
   location: 'Korea',

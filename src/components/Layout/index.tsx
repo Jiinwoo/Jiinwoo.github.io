@@ -12,6 +12,7 @@ import { useColorMode } from 'theme-ui';
 import Header from '../Header';
 import './layout.scss';
 import { googleFont } from '../../utils/typography';
+import favicon from '../../images/favicon.ico';
 
 FaConfig.autoAddCss = false;
 
@@ -57,7 +58,7 @@ const Layout = (props: LayoutPropsType) => {
   return (
     <>
       <Helmet>
-        <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+        <link rel="icon" href={favicon} type={'image/png'} />
         <link href={`https://fonts.googleapis.com/css?family=${googleFont}`} rel="stylesheet" />
         <meta name="google-site-verification" content={require('../../../config').googleSearchConsole ?? ''} />
         <style>{FaDom.css()}</style>
