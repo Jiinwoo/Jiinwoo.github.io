@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JiinWoo's Blog | Feed]]></title><description><![CDATA[어디서 주워들은거 끄적이기]]></description><link>https://jiinwoo.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 18 Nov 2020 14:42:15 GMT</lastBuildDate><item><title><![CDATA[Spring in Action 5판 3챕터 에러]]></title><description><![CDATA[최근에 스프링 인 액션…]]></description><link>https://jiinwoo.github.io/spring-in-action-5-3ch-bug/</link><guid isPermaLink="false">https://jiinwoo.github.io/spring-in-action-5-3ch-bug/</guid><pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;최근에 스프링 인 액션 5 책을 보고있는데 문제점이 한두개가 아니다. 책 소개글에 이전 버전에 나타난 여러 문제들을 해결했다고
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JiinWoo's Blog | Feed]]></title><description><![CDATA[어디서 주워들은거 끄적이기]]></description><link>https://jiinwoo.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 18 Nov 2020 15:16:48 GMT</lastBuildDate><item><title><![CDATA[Spring in Action 5판 3챕터 에러]]></title><description><![CDATA[최근에 스프링 인 액션…]]></description><link>https://jiinwoo.github.io/spring-in-action-5-3ch-bug/</link><guid isPermaLink="false">https://jiinwoo.github.io/spring-in-action-5-3ch-bug/</guid><pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;최근에 스프링 인 액션 5 책을 보고있는데 문제점이 한두개가 아니다. 책 소개글에 이전 버전에 나타난 여러 문제들을 해결했다고
 나와있는데 전혀 그런 것 같지 않다. 가뜩이나 스프링 잘못해서 사서 공부하는데 해결하는데 시간이 더 많이 든다.. ㅠㅠ&lt;/p&gt;
 &lt;p&gt;또 예제 리파지토리는 실행해보고 올린것인지 의문이 든다. &lt;/p&gt;
 &lt;p&gt;우선 첫 번째로 헤맸던 것은&lt;/p&gt;
@@ -146,28 +146,28 @@
 &lt;p&gt;위 코드를 보면 IDE 에서 다음과 같이 알려준다
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/bccb03b5acd2bebdffae981dda6036b1/c87be/1.png&quot;
+    href=&quot;/static/bccb03b5acd2bebdffae981dda6036b1/4e6ec/1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 33.13180169286578%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABSklEQVQoz42P226bUBBF+ZlWiXHV2IC52CTENpyD4XBNYmwpUf//J1bnEEeK1Jc+LO0ZzWjPHsdbrVj7GyHgYeXxlO04nw3H4zNRFBEnMXEsGt/U9klCKLMwCgnDDVmWsc8Lng85znJxx8OvBevfrugdabplOL/Tv10ZpnfGy4foJ+PlDy/XD96miWEcaboBM06Y/pW27zFti5NuEx7ThCSWa5uAXZqiuwuqm4QredWiLHVLXhoO6sRRleRadKYWKoqymnvH823sgHLv0WmfSmdU3Qv1jarpaQdJML6i60ZMa4qTmfWLQrCH9kUpLy+XrNYej9uAptyh1AHTjZxMNy+qyqDEoLihquYftGBT7guN47ou1vR+4fLj5z1+EHGSVKW8qG+UYj7zVX+bzXPhM6EY+sFGTAKser7P7ilDi2EuF+3S/2LftSn/AouT/GUAQje8AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 33.108108108108105%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABSklEQVQoz42P226bUBBF+ZlWiXHV2IC52CTENpyD4XBNYmwpUf//J1bnEEeK1Jc+LO0ZzWjPHsdbrVj7GyHgYeXxlO04nw3H4zNRFBEnMXEsGt/U9klCKLMwCgnDDVmWsc8Lng85znJxx8OvBevfrugdabplOL/Tv10ZpnfGy4foJ+PlDy/XD96miWEcaboBM06Y/pW27zFti5NuEx7ThCSWa5uAXZqiuwuqm4QredWiLHVLXhoO6sRRleRadKYWKoqymnvH823sgHLv0WmfSmdU3Qv1jarpaQdJML6i60ZMa4qTmfWLQrCH9kUpLy+XrNYej9uAptyh1AHTjZxMNy+qyqDEoLihquYftGBT7guN47ou1vR+4fLj5z1+EHGSVKW8qG+UYj7zVX+bzXPhM6EY+sFGTAKser7P7ilDi2EuF+3S/2LftSn/AouT/GUAQje8AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;1&quot;
         title=&quot;1&quot;
-        src=&quot;/static/bccb03b5acd2bebdffae981dda6036b1/799d3/1.png&quot;
-        srcset=&quot;/static/bccb03b5acd2bebdffae981dda6036b1/00d96/1.png 148w,
-/static/bccb03b5acd2bebdffae981dda6036b1/0b23c/1.png 295w,
-/static/bccb03b5acd2bebdffae981dda6036b1/799d3/1.png 590w,
-/static/bccb03b5acd2bebdffae981dda6036b1/c87be/1.png 827w&quot;
+        src=&quot;/static/bccb03b5acd2bebdffae981dda6036b1/fcda8/1.png&quot;
+        srcset=&quot;/static/bccb03b5acd2bebdffae981dda6036b1/12f09/1.png 148w,
+/static/bccb03b5acd2bebdffae981dda6036b1/e4a3f/1.png 295w,
+/static/bccb03b5acd2bebdffae981dda6036b1/fcda8/1.png 590w,
+/static/bccb03b5acd2bebdffae981dda6036b1/4e6ec/1.png 827w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -204,11 +204,11 @@
 반응형 내에서는 onClick 이벤트가 안붙는 것이다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 132px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 132px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/76a0b7a4a016b956a864675aaadb3683/f3e39/1.png&quot;
+    href=&quot;/static/76a0b7a4a016b956a864675aaadb3683/06c4e/1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -221,8 +221,8 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;1&quot;
         title=&quot;1&quot;
-        src=&quot;/static/76a0b7a4a016b956a864675aaadb3683/f3e39/1.png&quot;
-        srcset=&quot;/static/76a0b7a4a016b956a864675aaadb3683/f3e39/1.png 132w&quot;
+        src=&quot;/static/76a0b7a4a016b956a864675aaadb3683/06c4e/1.png&quot;
+        srcset=&quot;/static/76a0b7a4a016b956a864675aaadb3683/06c4e/1.png 132w&quot;
         sizes=&quot;(max-width: 132px) 100vw, 132px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -230,11 +230,11 @@
   &lt;/a&gt;
     &lt;/span&gt; &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 147px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 147px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0d10b6cba49cc9abba114701b129e69f/11f8f/2.png&quot;
+    href=&quot;/static/0d10b6cba49cc9abba114701b129e69f/a70ce/2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -247,8 +247,8 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;2&quot;
         title=&quot;2&quot;
-        src=&quot;/static/0d10b6cba49cc9abba114701b129e69f/11f8f/2.png&quot;
-        srcset=&quot;/static/0d10b6cba49cc9abba114701b129e69f/11f8f/2.png 147w&quot;
+        src=&quot;/static/0d10b6cba49cc9abba114701b129e69f/a70ce/2.png&quot;
+        srcset=&quot;/static/0d10b6cba49cc9abba114701b129e69f/a70ce/2.png 147w&quot;
         sizes=&quot;(max-width: 147px) 100vw, 147px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -480,30 +480,30 @@ Basic 방식? 으로 검사를 하기 때문에 우리가 사용하는 Bearer to
 &lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[스프링 부트에서 @NotEmpty 찾을 수 없다고 할 때]]></title><description><![CDATA[스프링부트와 리액트로 트렐로 클론코딩을 하던 도중 UserEntity내에 @NotEmpty를 사용했는데 이게 import…]]></description><link>https://jiinwoo.github.io/springboot-validate-error/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-validate-error/</guid><pubDate>Wed, 27 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;스프링부트와 리액트로 트렐로 클론코딩을 하던 도중 UserEntity내에 @NotEmpty를 사용했는데 이게 import가 안됀단다.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/fcdbe3844a3b9f1cd865f809c5245a7c/7abd6/1.png&quot;
+    href=&quot;/static/fcdbe3844a3b9f1cd865f809c5245a7c/87488/1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 53.43213728549142%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABLElEQVQoz5WTW3LCMAxFsx1s+Rm/EhISCl/d/34usgdo2qEZ+DgjxaO5vpKcLjmFGCMjQSQgpYAQ7yGlbLScWS9XdEs2GMcR05RQSg/vHZRSz+I9iOhXPk4ndLl3CCGihATvPKy1MMY20XepYlorFpxZMBCc09DWPO1/0vIjJ86b4DwrpGhgDe3OaQ9RI9eW8cgOo8KQ62I8O/WtXWsdjLZ8K/0r+vdciANSGdA5q5CDbsuoc6jzaEh6y932giboWXDoDQtGGPpshkJs6g/sMFdBXkgJFj0LOqNBin5cPuAz9RLu6I7kuqEuZTlfsKxnzEtl5Vsm5HJilhYLk8oMl6YNM2yNcUTiJze0ZxdwTAld+fqGm66QeYXiwjo71VAt1xzr94Hbe4W8/yUPbkopUxgR0RpXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 53.37837837837838%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABLElEQVQoz5WTW3LCMAxFsx1s+Rm/EhISCl/d/34usgdo2qEZ+DgjxaO5vpKcLjmFGCMjQSQgpYAQ7yGlbLScWS9XdEs2GMcR05RQSg/vHZRSz+I9iOhXPk4ndLl3CCGihATvPKy1MMY20XepYlorFpxZMBCc09DWPO1/0vIjJ86b4DwrpGhgDe3OaQ9RI9eW8cgOo8KQ62I8O/WtXWsdjLZ8K/0r+vdciANSGdA5q5CDbsuoc6jzaEh6y932giboWXDoDQtGGPpshkJs6g/sMFdBXkgJFj0LOqNBin5cPuAz9RLu6I7kuqEuZTlfsKxnzEtl5Vsm5HJilhYLk8oMl6YNM2yNcUTiJze0ZxdwTAld+fqGm66QeYXiwjo71VAt1xzr94Hbe4W8/yUPbkopUxgR0RpXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;1&quot;
         title=&quot;1&quot;
-        src=&quot;/static/fcdbe3844a3b9f1cd865f809c5245a7c/799d3/1.png&quot;
-        srcset=&quot;/static/fcdbe3844a3b9f1cd865f809c5245a7c/00d96/1.png 148w,
-/static/fcdbe3844a3b9f1cd865f809c5245a7c/0b23c/1.png 295w,
-/static/fcdbe3844a3b9f1cd865f809c5245a7c/799d3/1.png 590w,
-/static/fcdbe3844a3b9f1cd865f809c5245a7c/2a3d6/1.png 885w,
-/static/fcdbe3844a3b9f1cd865f809c5245a7c/ae92f/1.png 1180w,
-/static/fcdbe3844a3b9f1cd865f809c5245a7c/7abd6/1.png 1282w&quot;
+        src=&quot;/static/fcdbe3844a3b9f1cd865f809c5245a7c/fcda8/1.png&quot;
+        srcset=&quot;/static/fcdbe3844a3b9f1cd865f809c5245a7c/12f09/1.png 148w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/e4a3f/1.png 295w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/fcda8/1.png 590w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/efc66/1.png 885w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/c83ae/1.png 1180w,
+/static/fcdbe3844a3b9f1cd865f809c5245a7c/87488/1.png 1282w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -535,28 +535,28 @@ project를 attach해서 여러창에 띄워놔서 그런가 했는데 아니고 
 &lt;p&gt;먼저 나는 Provider를 직접 구현하지 않고 DaoAuthenticationProvider를 사용할 예정이다. 이 클래스를 자세히보면
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/92eaff73f38f1092991bb716e7bdb86b/c82e2/dao.png&quot;
+    href=&quot;/static/92eaff73f38f1092991bb716e7bdb86b/d7542/dao.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.69135802469135%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABWElEQVQoz4WS6XaEIAyFfZwKWQARl7Hv/1i3AXScmZ6e/vi8MUo2MpTImI04ZUx5Rp4LktmVmKbmSxV7Z2Y45+C9/8XlH3KwYMIgYozj2HDuUgc3uq7/cAUdNCpYCSQEETHsvaoqiLu/UW32L3rbbxVKEKQtIK8z1u0wHli2vbXLyuBwYkkbgW77xNNLQLYK4x6gWSFJnh/H8escgev69TfuGk9t+dgjliMgWsA4R0iwllnO9gVqLalVKpZYP7h8tUsiagxbDljMuZWMfT/wOL6xP7qWsmCxqkuZUI715nHp0nTeiiXVtgWDtwdxv+UryxNv8zkhZ8P/gPwF3bdco9ZBS7K2Jj7V2o3dVrNZ+uAr7Va52y2If1+doVVmh8MaOovNsrJqS1CTkfqO+L5i55r1QO/L3Sqc7OdKtMzJDoUYEUNC4IggZuuEpBnCfWelXlLo0MvKVH4AKxlSOFdPvLYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABWElEQVQoz4WS6XaEIAyFfZwKWQARl7Hv/1i3AXScmZ6e/vi8MUo2MpTImI04ZUx5Rp4LktmVmKbmSxV7Z2Y45+C9/8XlH3KwYMIgYozj2HDuUgc3uq7/cAUdNCpYCSQEETHsvaoqiLu/UW32L3rbbxVKEKQtIK8z1u0wHli2vbXLyuBwYkkbgW77xNNLQLYK4x6gWSFJnh/H8escgev69TfuGk9t+dgjliMgWsA4R0iwllnO9gVqLalVKpZYP7h8tUsiagxbDljMuZWMfT/wOL6xP7qWsmCxqkuZUI715nHp0nTeiiXVtgWDtwdxv+UryxNv8zkhZ8P/gPwF3bdco9ZBS7K2Jj7V2o3dVrNZ+uAr7Va52y2If1+doVVmh8MaOovNsrJqS1CTkfqO+L5i55r1QO/L3Sqc7OdKtMzJDoUYEUNC4IggZuuEpBnCfWelXlLo0MvKVH4AKxlSOFdPvLYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;dao&quot;
         title=&quot;dao&quot;
-        src=&quot;/static/92eaff73f38f1092991bb716e7bdb86b/799d3/dao.png&quot;
-        srcset=&quot;/static/92eaff73f38f1092991bb716e7bdb86b/00d96/dao.png 148w,
-/static/92eaff73f38f1092991bb716e7bdb86b/0b23c/dao.png 295w,
-/static/92eaff73f38f1092991bb716e7bdb86b/799d3/dao.png 590w,
-/static/92eaff73f38f1092991bb716e7bdb86b/c82e2/dao.png 810w&quot;
+        src=&quot;/static/92eaff73f38f1092991bb716e7bdb86b/fcda8/dao.png&quot;
+        srcset=&quot;/static/92eaff73f38f1092991bb716e7bdb86b/12f09/dao.png 148w,
+/static/92eaff73f38f1092991bb716e7bdb86b/e4a3f/dao.png 295w,
+/static/92eaff73f38f1092991bb716e7bdb86b/fcda8/dao.png 590w,
+/static/92eaff73f38f1092991bb716e7bdb86b/d7542/dao.png 810w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -566,28 +566,28 @@ project를 attach해서 여러창에 띄워놔서 그런가 했는데 아니고 
 &lt;p&gt;AbstractUserDetailsAuthenticationProvider를 상속해서 구현한 것을 알 수 있고 이클래스는 다시
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d623a0e4ae3d17bc2bd3530022792783/69344/super1.png&quot;
+    href=&quot;/static/d623a0e4ae3d17bc2bd3530022792783/8c557/super1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 46.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABRklEQVQoz42RWXLEIAxEfZsYjAQIg5fZU5P7H6kj8Ixr/JGqfLySoEFqRMeRIWtAKB4+MUJmxNmDE8HnTYuT35gDZAl7Xs/6kXe95h0HbsWaqITRQyZBmgWxxHaIhVqzlkfa1zWybPubGY+OXgXbhkbRIillpDFDUsLgBgzD/+myVhV9ogsOAw2wg0Xff22YHsaYHWvNYW2MhbH2WPCxRCzq7jIlrCXhumTcnnecnzecvq8at/zyc8f6OGt84Kz56XbCVUdzVkPB6/N5o3POgdXZlEeUMaHkjFwm5FwQRZCnRZkxzYuOYcS0rCi6HlUX1Zno6LAWTGwhZBBdj8CDdtIfpADnSOc4woegxJaHqJ+lOL3c9317sv2gI+1AarW6EUmtq0hEbUTkXpEaNX/z3vvUauyqi3rRM73m4Pd5HCD+0P84o/wCO24YrF54XWsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 45.94594594594595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABRklEQVQoz42RWXLEIAxEfZsYjAQIg5fZU5P7H6kj8Ixr/JGqfLySoEFqRMeRIWtAKB4+MUJmxNmDE8HnTYuT35gDZAl7Xs/6kXe95h0HbsWaqITRQyZBmgWxxHaIhVqzlkfa1zWybPubGY+OXgXbhkbRIillpDFDUsLgBgzD/+myVhV9ogsOAw2wg0Xff22YHsaYHWvNYW2MhbH2WPCxRCzq7jIlrCXhumTcnnecnzecvq8at/zyc8f6OGt84Kz56XbCVUdzVkPB6/N5o3POgdXZlEeUMaHkjFwm5FwQRZCnRZkxzYuOYcS0rCi6HlUX1Zno6LAWTGwhZBBdj8CDdtIfpADnSOc4woegxJaHqJ+lOL3c9317sv2gI+1AarW6EUmtq0hEbUTkXpEaNX/z3vvUauyqi3rRM73m4Pd5HCD+0P84o/wCO24YrF54XWsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;super1&quot;
         title=&quot;super1&quot;
-        src=&quot;/static/d623a0e4ae3d17bc2bd3530022792783/799d3/super1.png&quot;
-        srcset=&quot;/static/d623a0e4ae3d17bc2bd3530022792783/00d96/super1.png 148w,
-/static/d623a0e4ae3d17bc2bd3530022792783/0b23c/super1.png 295w,
-/static/d623a0e4ae3d17bc2bd3530022792783/799d3/super1.png 590w,
-/static/d623a0e4ae3d17bc2bd3530022792783/69344/super1.png 700w&quot;
+        src=&quot;/static/d623a0e4ae3d17bc2bd3530022792783/fcda8/super1.png&quot;
+        srcset=&quot;/static/d623a0e4ae3d17bc2bd3530022792783/12f09/super1.png 148w,
+/static/d623a0e4ae3d17bc2bd3530022792783/e4a3f/super1.png 295w,
+/static/d623a0e4ae3d17bc2bd3530022792783/fcda8/super1.png 590w,
+/static/d623a0e4ae3d17bc2bd3530022792783/8c557/super1.png 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -601,28 +601,28 @@ Authentication 을 받아 UsernamePasswordAuthenticationToken을 반환하는 �
 예를 들어
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0a511831ff39e850b7c5d06a6d0c9bd9/e9777/super2.png&quot;
+    href=&quot;/static/0a511831ff39e850b7c5d06a6d0c9bd9/33e10/super2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 107.34597156398105%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC1klEQVQ4y41U2XLbMAz0z7SWRPESdVCXHTtNHjqdyf9/zXZBSo5dp9M+rHgKXAALHIKpELuAdYqYlhNO64TLacT5tCBOC9puIHq0/YCOo3MWdV1Da51GpSpCoaryeFC1hvcNQgiIccY0njHOJ6wvV3RDhOOZbwQB3vKuUWhCi9B1sNaiKsubMRkPMimKAuV20LUdDbVoOg/XGvgNMnedhQtEY2AbneFMYvrJkB9h2JCFc45zD2PMzS1jDTTXWtcJtYwmj6pWvKceXZYfxa1AZkOc0McRA2M3zmvak8fk3GgFS2i6bVzGbujBZc0XWktIDKeVCejQ8rIzEvwc+ARJgjb5x7J6MPTEsO+7bKhl7JjFhi5648kuMFncY0IEMjeGzL4wtOOgqjLFT9h1XcvMSfxKHMuMohJUCcdtXkoixZgYEaYPBvnRdUVZeETjcGIIFrKelUBhpNGMIo2RihiJyPnN2B3LZLCWhXW4MGZvfcRlXHAdZ1yYoMl5zEyKQOYLXZ84v9Kg/sqgbFhKoKGrc+jwzoq4MJZXZljwg+sXJmxhUmbem+rMvL+P3Z3bh32jIcPQRjRkqKlHzbVvexiyKRmGihVSUTbfiz22n5K5xXKvlGqL4+AdJiZoHGaMLMM4jFTAgNBI9nOW+2HY6lndxF09MUyQ8ikpYMpo6HP59R4hQYTfwHopO0tRG1ZQFrdUzZPBivS9kTjyAsUrpXdfBTdQ0HvN30P96XLKNKl7TfnQHcd6zqF4FO2/IPcP0s9SE5BSSz1OPzP7H6i7biPdRJrAwP4XxxE+uNwArLSnHCfpNHbbk/V+vo9qy3qqZcnUt+MRR1aAoBBZbJAyq3i+jwlfubwbFKordfdK/S3U3UxMxImZfut7rHxwLI6Y+NBAeD7i+GP9N5dLWr6yg7zHHj/XBR8vZ3ycT/h1OeP1fMZCHfYSDupzoQ6vLL1X/jiIB/dltzH8DT5GiN5AMxY+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 107.43243243243244%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC1klEQVQ4y41U2XLbMAz0z7SWRPESdVCXHTtNHjqdyf9/zXZBSo5dp9M+rHgKXAALHIKpELuAdYqYlhNO64TLacT5tCBOC9puIHq0/YCOo3MWdV1Da51GpSpCoaryeFC1hvcNQgiIccY0njHOJ6wvV3RDhOOZbwQB3vKuUWhCi9B1sNaiKsubMRkPMimKAuV20LUdDbVoOg/XGvgNMnedhQtEY2AbneFMYvrJkB9h2JCFc45zD2PMzS1jDTTXWtcJtYwmj6pWvKceXZYfxa1AZkOc0McRA2M3zmvak8fk3GgFS2i6bVzGbujBZc0XWktIDKeVCejQ8rIzEvwc+ARJgjb5x7J6MPTEsO+7bKhl7JjFhi5648kuMFncY0IEMjeGzL4wtOOgqjLFT9h1XcvMSfxKHMuMohJUCcdtXkoixZgYEaYPBvnRdUVZeETjcGIIFrKelUBhpNGMIo2RihiJyPnN2B3LZLCWhXW4MGZvfcRlXHAdZ1yYoMl5zEyKQOYLXZ84v9Kg/sqgbFhKoKGrc+jwzoq4MJZXZljwg+sXJmxhUmbem+rMvL+P3Z3bh32jIcPQRjRkqKlHzbVvexiyKRmGihVSUTbfiz22n5K5xXKvlGqL4+AdJiZoHGaMLMM4jFTAgNBI9nOW+2HY6lndxF09MUyQ8ikpYMpo6HP59R4hQYTfwHopO0tRG1ZQFrdUzZPBivS9kTjyAsUrpXdfBTdQ0HvN30P96XLKNKl7TfnQHcd6zqF4FO2/IPcP0s9SE5BSSz1OPzP7H6i7biPdRJrAwP4XxxE+uNwArLSnHCfpNHbbk/V+vo9qy3qqZcnUt+MRR1aAoBBZbJAyq3i+jwlfubwbFKordfdK/S3U3UxMxImZfut7rHxwLI6Y+NBAeD7i+GP9N5dLWr6yg7zHHj/XBR8vZ3ycT/h1OeP1fMZCHfYSDupzoQ6vLL1X/jiIB/dltzH8DT5GiN5AMxY+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;super2&quot;
         title=&quot;super2&quot;
-        src=&quot;/static/0a511831ff39e850b7c5d06a6d0c9bd9/799d3/super2.png&quot;
-        srcset=&quot;/static/0a511831ff39e850b7c5d06a6d0c9bd9/00d96/super2.png 148w,
-/static/0a511831ff39e850b7c5d06a6d0c9bd9/0b23c/super2.png 295w,
-/static/0a511831ff39e850b7c5d06a6d0c9bd9/799d3/super2.png 590w,
-/static/0a511831ff39e850b7c5d06a6d0c9bd9/e9777/super2.png 844w&quot;
+        src=&quot;/static/0a511831ff39e850b7c5d06a6d0c9bd9/fcda8/super2.png&quot;
+        srcset=&quot;/static/0a511831ff39e850b7c5d06a6d0c9bd9/12f09/super2.png 148w,
+/static/0a511831ff39e850b7c5d06a6d0c9bd9/e4a3f/super2.png 295w,
+/static/0a511831ff39e850b7c5d06a6d0c9bd9/fcda8/super2.png 590w,
+/static/0a511831ff39e850b7c5d06a6d0c9bd9/33e10/super2.png 844w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -635,28 +635,28 @@ Authentication 을 받아 UsernamePasswordAuthenticationToken을 반환하는 �
 하지만 간단하게 할거니까 무시하자..
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ccde9e007473917925c494157833d964/ea61f/deprecated.png&quot;
+    href=&quot;/static/ccde9e007473917925c494157833d964/940c5/deprecated.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.95336787564767%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACLUlEQVQ4y32T2XraMBCFeZxgvGmzTUiAhJIYiBdsYwjwtX3/lzg9Eku56NeL32dGlo7G8mgwmwSYZCO8jAOMM4ksE8hSCSMjEkJRhZSOWAhIpSClQhgGCIK/hGHoGKgowPRlgsX7DMvFnMyweHvF+/yVOsUbdf6+wHQ2x+RliiRNkSQpRBwjviJE7Ew9z8NAMmn7A/rDEd3+jMPpN/aOX9gfLT8du8MZm7LBj88NfuQFlqsSH+vSxeuyRTZ+xtPTEwZxFKGoGnzVHT7LPfL6hNX2hLw6MP5GXvbU43XsG6uqx7reY01dXSnaI7LnycUwDGlYt9juTmj6M+rdGVX3jdpxJAfmNCxarMqOm9eo6i1KalFWTr+Kkmc/vhhGrLDetuh2PZpuh7brXNxe86a1dHfa3d7Nr0jT9dgUFVYbGo6vhlJpVJy45UKLnVTVDermMmYX2thyi61Jvv7CR77C8iPH8jOHNgmGwyEGQkiXGJKkmUNxE8M/aWOnN5hrbRhz3BjY87dH5vMPj0ajy1+O2U9GjpHoMYxK2WfcIDVQRkMnBiZNoBLFPhQul1pxLIXJUo5rRHF0N7M68PlIRYRECU7M7kZKaxdLodjchBXpJGFzx6xohCD0qT77j/poaB+hP4Rgg6cZP4XV6VTfMaxCsSqppasoljHCmDcjDp0+Vuc+2fd9DO0AVfBq2RsQ0txWEET+JWYVnje8MLosfsTzrD5UeHP/H4+L//Xupn8AQdi4ZiobyoUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 62.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACLUlEQVQ4y32T2XraMBCFeZxgvGmzTUiAhJIYiBdsYwjwtX3/lzg9Eku56NeL32dGlo7G8mgwmwSYZCO8jAOMM4ksE8hSCSMjEkJRhZSOWAhIpSClQhgGCIK/hGHoGKgowPRlgsX7DMvFnMyweHvF+/yVOsUbdf6+wHQ2x+RliiRNkSQpRBwjviJE7Ew9z8NAMmn7A/rDEd3+jMPpN/aOX9gfLT8du8MZm7LBj88NfuQFlqsSH+vSxeuyRTZ+xtPTEwZxFKGoGnzVHT7LPfL6hNX2hLw6MP5GXvbU43XsG6uqx7reY01dXSnaI7LnycUwDGlYt9juTmj6M+rdGVX3jdpxJAfmNCxarMqOm9eo6i1KalFWTr+Kkmc/vhhGrLDetuh2PZpuh7brXNxe86a1dHfa3d7Nr0jT9dgUFVYbGo6vhlJpVJy45UKLnVTVDermMmYX2thyi61Jvv7CR77C8iPH8jOHNgmGwyEGQkiXGJKkmUNxE8M/aWOnN5hrbRhz3BjY87dH5vMPj0ajy1+O2U9GjpHoMYxK2WfcIDVQRkMnBiZNoBLFPhQul1pxLIXJUo5rRHF0N7M68PlIRYRECU7M7kZKaxdLodjchBXpJGFzx6xohCD0qT77j/poaB+hP4Rgg6cZP4XV6VTfMaxCsSqppasoljHCmDcjDp0+Vuc+2fd9DO0AVfBq2RsQ0txWEET+JWYVnje8MLosfsTzrD5UeHP/H4+L//Xupn8AQdi4ZiobyoUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;deprecated&quot;
         title=&quot;deprecated&quot;
-        src=&quot;/static/ccde9e007473917925c494157833d964/799d3/deprecated.png&quot;
-        srcset=&quot;/static/ccde9e007473917925c494157833d964/00d96/deprecated.png 148w,
-/static/ccde9e007473917925c494157833d964/0b23c/deprecated.png 295w,
-/static/ccde9e007473917925c494157833d964/799d3/deprecated.png 590w,
-/static/ccde9e007473917925c494157833d964/ea61f/deprecated.png 772w&quot;
+        src=&quot;/static/ccde9e007473917925c494157833d964/fcda8/deprecated.png&quot;
+        srcset=&quot;/static/ccde9e007473917925c494157833d964/12f09/deprecated.png 148w,
+/static/ccde9e007473917925c494157833d964/e4a3f/deprecated.png 295w,
+/static/ccde9e007473917925c494157833d964/fcda8/deprecated.png 590w,
+/static/ccde9e007473917925c494157833d964/940c5/deprecated.png 772w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -883,10 +883,10 @@ retrieveUser 안에서 UserDetails 인터페이스의 loadByUserName을 호출�
 &lt;li&gt;ErrorResponseDTO&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;나머지 3개는 다음포스팅때~&lt;/p&gt;</content:encoded></item><item><title><![CDATA[자식이 부모를 벗어날 때]]></title><description><![CDATA[위와같이 코드를 작성하면 자식 div태그에서 width:100%로 부모 영역안에 위치한다고 생각 할 수 있다. 하지만 실제 결과를보면
- 다음과같이 부모의 영역을 벗어나는 것을 알 수 있다. 이 이유는 기본 box-sizing이 content-box…]]></description><link>https://jiinwoo.github.io/padding-boxsizing/</link><guid isPermaLink="false">https://jiinwoo.github.io/padding-boxsizing/</guid><pubDate>Sun, 24 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token doctype&quot;&gt;&amp;lt;!DOCTYPE html&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;html&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;en&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+ 다음과같이 부모의 영역을 벗어나는 것을 알 수 있다. 이 이유는 기본 box-sizing이 content-box…]]></description><link>https://jiinwoo.github.io/padding-boxsizing/</link><guid isPermaLink="false">https://jiinwoo.github.io/padding-boxsizing/</guid><pubDate>Sun, 24 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token doctype&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;token doctype-tag&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;token name&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;html&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;en&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;UTF-8&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;UTF-8&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
     &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Title&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
@@ -900,27 +900,27 @@ retrieveUser 안에서 UserDetails 인터페이스의 loadByUserName을 호출�
 &lt;p&gt;위와같이 코드를 작성하면 자식 div태그에서 width:100%로 부모 영역안에 위치한다고 생각 할 수 있다. 하지만 실제 결과를보면
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 508px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 508px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/51a5d9eeeb869064fe9c7888018f3c36/4c0bb/1.png&quot;
+    href=&quot;/static/51a5d9eeeb869064fe9c7888018f3c36/2fd48/1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 68.7007874015748%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACjUlEQVQ4y4WS247TRhjH/Vj0srQ8B+WipeWyjwDvUC57hdTeIFQugCJ2q0JVFUjZ7iYxzmHtJD7GduLD+Bg7PybezXYlFjHSXzPfHH7znZRX/w74+0Tj1PSYOQHzTmG33tvTucub41Gn3mBKr3+mnf36vxEvX59Ie8LBX29RxvqMkTGjrmu22y1XjaoqMW2PueniLkMcL8ByfKkljhuwsOS+FzKe6CgiTc6fbanKjE1dsjBNJqcGuvzItB0s25UQj6UvIbaN5wfSXsoPLNZxwlQ3urM0TVFevR3y8Pk7Hh8ed/rt4AgvWNO2DUmSYFk2juNIgM9YNzmd2/jBCluCd5AwDImiiFiCDcNAuXf/GV988zs37vzB9e//5Kvbj1Gni7NQZRriJJaXI8JIsFhGuKsMkZcIkZLnBWVZdtqlzJNRKHd/esq1m0/4+ocXXL99yJffPmIwnnfARnqZrTNSLyL1LSIvpt00fGp0If98eMKPv/b47pcetx70uP/kCJFm58CWXK5TJ6aWXpVxQXMFcF/KXYqUYOHRpIUML6csxA5zcVEIwWQ8YdjTmKiytUYqqjpDez9jMDA6qaou51M0bUG/r6LsqGVVUcg87LSRHuzbJy8KDNNnqLmoA5P3Qwkfzjg6sfjnzZyjY5P+cMFxf85E91FHsm3yPP84hHNgWTcEaSsbvKD3LmRqrBhNI1k0QV9LZK5ThhOBpmc4YYNurVGyLLuAXFYHrBrcdS2rW6IZgpld4Mcb/ORMwbn8pGYltuhm+L+He8hlYC3DX4mGdbohSip8V7CKK6KsIRKbC+3O02KL5a6vBu7nVla5bVoiM6KI8k+2y/5NEsefAW5bKlEhvLQDX5WayxHFEvgBD5EVn/q/BugAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 68.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACjUlEQVQ4y4WS247TRhjH/Vj0srQ8B+WipeWyjwDvUC57hdTeIFQugCJ2q0JVFUjZ7iYxzmHtJD7GduLD+Bg7PybezXYlFjHSXzPfHH7znZRX/w74+0Tj1PSYOQHzTmG33tvTucub41Gn3mBKr3+mnf36vxEvX59Ie8LBX29RxvqMkTGjrmu22y1XjaoqMW2PueniLkMcL8ByfKkljhuwsOS+FzKe6CgiTc6fbanKjE1dsjBNJqcGuvzItB0s25UQj6UvIbaN5wfSXsoPLNZxwlQ3urM0TVFevR3y8Pk7Hh8ed/rt4AgvWNO2DUmSYFk2juNIgM9YNzmd2/jBCluCd5AwDImiiFiCDcNAuXf/GV988zs37vzB9e//5Kvbj1Gni7NQZRriJJaXI8JIsFhGuKsMkZcIkZLnBWVZdtqlzJNRKHd/esq1m0/4+ocXXL99yJffPmIwnnfARnqZrTNSLyL1LSIvpt00fGp0If98eMKPv/b47pcetx70uP/kCJFm58CWXK5TJ6aWXpVxQXMFcF/KXYqUYOHRpIUML6csxA5zcVEIwWQ8YdjTmKiytUYqqjpDez9jMDA6qaou51M0bUG/r6LsqGVVUcg87LSRHuzbJy8KDNNnqLmoA5P3Qwkfzjg6sfjnzZyjY5P+cMFxf85E91FHsm3yPP84hHNgWTcEaSsbvKD3LmRqrBhNI1k0QV9LZK5ThhOBpmc4YYNurVGyLLuAXFYHrBrcdS2rW6IZgpld4Mcb/ORMwbn8pGYltuhm+L+He8hlYC3DX4mGdbohSip8V7CKK6KsIRKbC+3O02KL5a6vBu7nVla5bVoiM6KI8k+2y/5NEsefAW5bKlEhvLQDX5WayxHFEvgBD5EVn/q/BugAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;1&quot;
         title=&quot;1&quot;
-        src=&quot;/static/51a5d9eeeb869064fe9c7888018f3c36/4c0bb/1.png&quot;
-        srcset=&quot;/static/51a5d9eeeb869064fe9c7888018f3c36/00d96/1.png 148w,
-/static/51a5d9eeeb869064fe9c7888018f3c36/0b23c/1.png 295w,
-/static/51a5d9eeeb869064fe9c7888018f3c36/4c0bb/1.png 508w&quot;
+        src=&quot;/static/51a5d9eeeb869064fe9c7888018f3c36/2fd48/1.png&quot;
+        srcset=&quot;/static/51a5d9eeeb869064fe9c7888018f3c36/12f09/1.png 148w,
+/static/51a5d9eeeb869064fe9c7888018f3c36/e4a3f/1.png 295w,
+/static/51a5d9eeeb869064fe9c7888018f3c36/2fd48/1.png 508w&quot;
         sizes=&quot;(max-width: 508px) 100vw, 508px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -931,33 +931,239 @@ retrieveUser 안에서 UserDetails 인터페이스의 loadByUserName을 호출�
 해당 두번째 영역을 box-sizing : border-box; 로 설정하면 border영역까지가 width로 잡히기때문에 부모영역안으로 들어 갈 수 있다.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 499px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 499px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/28712ea14a5a1ad3ebf52e96e59ced3f/cdfb8/2.png&quot;
+    href=&quot;/static/28712ea14a5a1ad3ebf52e96e59ced3f/119c7/2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 69.93987975951904%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACaklEQVQ4y42TSW7UUBCGfQCuwYIjgMQFIiS2HIUDcADEllUkFgRWARYRUmCRSBlIItLpTnrw1O15nt2O2+/9VNvdATG0eNKn8rOr/qp6riecDUSc9scQVQPSzIKk2WTt7nnFUNbwrTcixjjvi8QE51cTnF6OiCEOT3utPbq4hiBqFnpjEc1igX+tuq6hzswW0/ahWx50071jptvQDKdFqOuCQnhL0xTI8hTKdAplpkFWpzAsu8VyXNiuR0EmHC9o9zPdRJSkkJUpbNovl3B0bGPnvYTdj1OyMtRpCsZqlPMKCTlbJGZaFoIggOM48DwXYRTBcV14vo8oihGGUfsujmMIT7c+QxBeEa+Jl3izPWkzMda1GoQBOZJAkGGoOlDMGGlWkkiALMtQFAXm83lrl3vh2fMLCA8+4N6jPQj3d/F2z+jObcHAOEMRkaMXIXENBF6GxYJj0xK2TnII70IIu1TuToht7bYTZBycc5RUTWokqOe3qKI5eMM2C764LvD4S4wnBwke7sf46tRdy0Se55AlGWJPgqbI0FUJkmRAUYzWTiY6RFEnq2E81qFpJoS/ZWG8a6ssCximg5uBhtGVglH/BsO+hN53FSfHZC8V3FzLGAxkEjXoB9LYNBS8YD9Ziy3b5axrrywamFqOIivgJw08mjQrBuyQw4s5/JihqjrfPyrkvwiypmkTZHkN3SiQxrdwDy7gfNqHtXcA/6wPvzdBOFTbOV7GbBakCpu7qjmqpERDM8n0GZrJGMykiUgT8Cztrsb/CC7FEjNBGZer+/Sb/5pV3GZBmsMqq5CSIFuNy/psWzi/Y/3tByvqE489Y6GjAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 70.27027027027026%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACaklEQVQ4y42TSW7UUBCGfQCuwYIjgMQFIiS2HIUDcADEllUkFgRWARYRUmCRSBlIItLpTnrw1O15nt2O2+/9VNvdATG0eNKn8rOr/qp6riecDUSc9scQVQPSzIKk2WTt7nnFUNbwrTcixjjvi8QE51cTnF6OiCEOT3utPbq4hiBqFnpjEc1igX+tuq6hzswW0/ahWx50071jptvQDKdFqOuCQnhL0xTI8hTKdAplpkFWpzAsu8VyXNiuR0EmHC9o9zPdRJSkkJUpbNovl3B0bGPnvYTdj1OyMtRpCsZqlPMKCTlbJGZaFoIggOM48DwXYRTBcV14vo8oihGGUfsujmMIT7c+QxBeEa+Jl3izPWkzMda1GoQBOZJAkGGoOlDMGGlWkkiALMtQFAXm83lrl3vh2fMLCA8+4N6jPQj3d/F2z+jObcHAOEMRkaMXIXENBF6GxYJj0xK2TnII70IIu1TuToht7bYTZBycc5RUTWokqOe3qKI5eMM2C764LvD4S4wnBwke7sf46tRdy0Se55AlGWJPgqbI0FUJkmRAUYzWTiY6RFEnq2E81qFpJoS/ZWG8a6ssCximg5uBhtGVglH/BsO+hN53FSfHZC8V3FzLGAxkEjXoB9LYNBS8YD9Ziy3b5axrrywamFqOIivgJw08mjQrBuyQw4s5/JihqjrfPyrkvwiypmkTZHkN3SiQxrdwDy7gfNqHtXcA/6wPvzdBOFTbOV7GbBakCpu7qjmqpERDM8n0GZrJGMykiUgT8Cztrsb/CC7FEjNBGZer+/Sb/5pV3GZBmsMqq5CSIFuNy/psWzi/Y/3tByvqE489Y6GjAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;2&quot;
         title=&quot;2&quot;
-        src=&quot;/static/28712ea14a5a1ad3ebf52e96e59ced3f/cdfb8/2.png&quot;
-        srcset=&quot;/static/28712ea14a5a1ad3ebf52e96e59ced3f/00d96/2.png 148w,
-/static/28712ea14a5a1ad3ebf52e96e59ced3f/0b23c/2.png 295w,
-/static/28712ea14a5a1ad3ebf52e96e59ced3f/cdfb8/2.png 499w&quot;
+        src=&quot;/static/28712ea14a5a1ad3ebf52e96e59ced3f/119c7/2.png&quot;
+        srcset=&quot;/static/28712ea14a5a1ad3ebf52e96e59ced3f/12f09/2.png 148w,
+/static/28712ea14a5a1ad3ebf52e96e59ced3f/e4a3f/2.png 295w,
+/static/28712ea14a5a1ad3ebf52e96e59ced3f/119c7/2.png 499w&quot;
         sizes=&quot;(max-width: 499px) 100vw, 499px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 2 )]]></title><description><![CDATA[Spring은 배운지 얼마안됐고 security는 더더욱 안됐다. 정확하지 않을 수 있습니다. springboot 프로젝트 생성 나는 Intellij 안의 spring initializer…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_2/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_2/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 1 )]]></title><description><![CDATA[프로젝트 생성 위 커맨드로 프로젝트를 만들어주고 라우팅을 위해 다음을 설치한다. 이후 App.tsx 파일 안에 다음과 같이 라우팅 해줍니다. 일반적으로 react-router-dom 공식 사이트에서는 
+BrowserRouter…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_1/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_1/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;프로젝트-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;프로젝트 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;프로젝트 생성&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;npx create-react-app &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;프로젝트 명&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; --typescript&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 커맨드로 프로젝트를 만들어주고 라우팅을 위해 다음을 설치한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; i react-router-dom @types/react-router-dom &lt;span class=&quot;token function&quot;&gt;history&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이후 App.tsx 파일 안에 다음과 같이 라우팅 해줍니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;Router &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Route&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Switch&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-router-dom&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;createBrowserHistory&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;history&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; LoginForm &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./components/LoginForm&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; history &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createBrowserHistory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;history&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;history&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Switch&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Route&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;LoginForm&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/login&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;exact&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Switch&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; App&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;일반적으로 &lt;a href=&quot;&amp;#x27;https://reacttraining.com/react-router/web/guides/quick-start&amp;#x27;&quot;&gt;react-router-dom&lt;/a&gt; 공식 사이트에서는
+BrowserRouter를 사용하는데 나 같은 경우에는 조금있다가 사용할 redux 미들웨어인 thunk 함수내에서 라우팅을 하기 위해서
+추상화된 BrowserRouter 대신 기본 Router를 사용하고 history를 직접 넣었다.&lt;/p&gt;
+&lt;p&gt;이제 로그인폼 컴포넌트를 만들어보자. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;nashornjs&quot;&gt;&lt;pre class=&quot;language-nashornjs&quot;&gt;&lt;code class=&quot;language-nashornjs&quot;&gt;npm i formik&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;사실 다른 form 상태관리 라이브러리는 사용해보지 않았다... 그냥 npm trend에서 많이 사용한다길래 선택한 것일 뿐
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/e5ca1/formik-npm-trend.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40.54054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABYElEQVQoz1VS7VLEIAzs+z+kP3Q8r/X6AbQhQMK67amjzOyQhbDZAEOMESEEpJQwLQn32zu2eYK5QyzDW4NnhbuiO7l3tN7Rm3PdAHT8HYOZ/ZLX4ChpRk8Tcqu4lTvakdDvI7pNqPqBKI5JDY8x4/NlR+b5o/gFqY5BRFBqQzkr0pV/1yyto1Zgrx2Bc9Rv0NVOwdOlMD+IXUJ7MXbVMWgp2KRyo2E92pV8Cm/kB5NyNYobtJ0HDJ1CfsKfBq7y/YRfe4OqQuguc0+5HtQv8UhXNAf1JwrjM+cH6v85b+LKp2BGU4FVXnoVLGxpFKCRe+Mj6M6+N2IhHsRKTMQdSB/ojPs+wiJjDRhqLajhHba8wtY3lOUJX5/c0w0mn7A881VXuDzIN2In0hU7Z5cIp4nh7FtzpIkZOQW+6oqyjZC4ouYdyrUcVrScoHSqYUPjF6v8ajLPqGfMr3csLMRuvwDfXm+dlnRFWQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;formik npm trend&quot;
+        title=&quot;formik npm trend&quot;
+        src=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/fcda8/formik-npm-trend.png&quot;
+        srcset=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/12f09/formik-npm-trend.png 148w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/e4a3f/formik-npm-trend.png 295w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/fcda8/formik-npm-trend.png 590w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/efc66/formik-npm-trend.png 885w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/c83ae/formik-npm-trend.png 1180w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/e5ca1/formik-npm-trend.png 1332w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+그리고 이거는 방금안 사실인데 그냥 formik만 사용하기엔 너무 밋밋해 보일 것같아서 antd를 사용해 기본적인 디자인을 주려했는데
+아예 결합된 라이브러리가 있었다. 그래서 설치했다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;nashornjs&quot;&gt;&lt;pre class=&quot;language-nashornjs&quot;&gt;&lt;code class=&quot;language-nashornjs&quot;&gt;npm i formik-antd antd&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;기본적으로 form 상태 관리를 사용하지 않으면 다음과같이 코드량이 상당히 늘어나고 관리하기도 힘들다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;useState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ChangeEvent&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;LoginForm&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;setEmail&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;setPassword&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; onChangeEmail &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ChangeEvent&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;HTMLInputElement&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;)=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;setEmail&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+  const onChangePassword = (e : ChangeEvent&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;HTMLInputElement&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;)=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;setPassword&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+  return (
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;onChange&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;onChangeEmail&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;onChange&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;onChangePassword&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;  
+    )
+}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;기본적으로 입력 받고 상태만 관리하는데 벌써 코드량이 많아졌다.. 물론 changeMethod도 하나로 하고 useState도 하나로면
+더 줄일 수 있겠으나 여간 귀찮은게 아니다. 그런데 formik 라이브러리를 사용하면&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Button &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;antd&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; SubmitButton&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Form&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Input &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;formik-antd&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Formik &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;formik&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Link &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-router-dom&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ILoginValue&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  email&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  password&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;LoginForm&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; initialValue&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ILoginValue &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;email&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; password&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;padding &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;24px&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; width&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;300px&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Formik&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token attr-name&quot;&gt;initialValues&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;initialValue&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token attr-name&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Form&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+              &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* every formik-antd component must have the &apos;name&apos; prop set: */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+              &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;이메일&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+              &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;패스워드&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+              &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* the rest of the api stays as is */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+              &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SubmitButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;로그인&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SubmitButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Form&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token attr-name&quot;&gt;onSubmit&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;value&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;helpers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;helpers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setSubmitting&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token builtin&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Link&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/signup&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Button&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;회원가입하기&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Button&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Link&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; LoginForm&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;다음과 같이 깔끔해진다. 로그인 만들었던 것 처럼 회원가입도 만들자!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; SubmitButton&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Form&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Input &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;formik-antd&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Formik &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;formik&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ISignupValue&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  email&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  username&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  password&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;SignUpForm&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; initialValue&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ISignupValue &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;email&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; username&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; password&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;padding &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;24px&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; width&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;300px&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Formik&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token attr-name&quot;&gt;initialValues&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;initialValue&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token attr-name&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Form&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* every formik-antd component must have the &apos;name&apos; prop set: */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;이메일&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;username&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;이름&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;패스워드&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* the rest of the api stays as is */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SubmitButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;회원가입&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SubmitButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+          &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Form&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token attr-name&quot;&gt;onSubmit&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;value&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;helpers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;helpers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setSubmitting&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;token builtin&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; SignUpForm&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 326px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/91ed7c60c05beeea003f48c853d365db/ce9b1/formik-login-form.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.48648648648649%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABIElEQVQoz6VSQU7DMBDMgQ/wBMQHeBSncuAHXFBBXBFH+AUScEBI9M6dUyUORakosQmOa3vtYe2SqK2oYmCk1TjJejxZTwFGCAEt4vqvFVHEBRHBGAOtNay18N7/uqJGJ+icg1INqqpCXdfw/O5fgs3cQGl2aGziZm7ZqYOzNjnOqRVBgB/sB7NmrpnNYp7Ix4rg1RPh6IFwOnIYjgjHj4TxO6WDnKPU3Ffxt78Fgb1LYPvMYefcYfeCsDUMuB+H5JF8/g13Dk/Y1f51wMEtcHjnMbgJeH6LTT45XN6wCa1wsbDqoeQM5eQFYlZCTF9RlhNIKbtbzMlo59DG2DQxNgKfHB8hJLNK2YyRWhbsQ9HX2H5bn9VGwfUNPw06VyziCyJ3pveFdjK1AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;formik login form&quot;
+        title=&quot;formik login form&quot;
+        src=&quot;/static/91ed7c60c05beeea003f48c853d365db/ce9b1/formik-login-form.png&quot;
+        srcset=&quot;/static/91ed7c60c05beeea003f48c853d365db/12f09/formik-login-form.png 148w,
+/static/91ed7c60c05beeea003f48c853d365db/e4a3f/formik-login-form.png 295w,
+/static/91ed7c60c05beeea003f48c853d365db/ce9b1/formik-login-form.png 326w&quot;
+        sizes=&quot;(max-width: 326px) 100vw, 326px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그리고 라우팅도 추가해주자&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;Router &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Route&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-router-dom&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;createBrowserHistory&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;history&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; LoginForm &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./components/LoginForm&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; SignUpForm &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./components/SignUpForm&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; history &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createBrowserHistory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;history&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;history&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Route&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;exact&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;LoginForm&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/login&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Route&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;exact&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SignUpForm&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/signup&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; App&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;기본적인 회원가입 및 로그인 컴포넌트를 완성했다.&lt;/p&gt;
+&lt;p&gt;다음 포스트에서는 Spring Boot를 활용한 JWT 로그인, 회원가입을 구현해볼 예정이다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 2 )]]></title><description><![CDATA[Spring은 배운지 얼마안됐고 security는 더더욱 안됐다. 정확하지 않을 수 있습니다. springboot 프로젝트 생성 나는 Intellij 안의 spring initializer…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_2/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_2/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Spring은 배운지 얼마안됐고 security는 더더욱 안됐다.&lt;/p&gt;
 &lt;p&gt;정확하지 않을 수 있습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -966,30 +1172,30 @@ retrieveUser 안에서 UserDetails 인터페이스의 loadByUserName을 호출�
 들어가서 다운받는거랑 같다.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7a8fdc2f383bd29ac0bbdbca70e8144c/95489/create-project1.png&quot;
+    href=&quot;/static/7a8fdc2f383bd29ac0bbdbca70e8144c/5148a/create-project1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.72312703583062%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA30lEQVQoz6WSzW6DMBCE/VwY/6y9xjZplSjX3KL2DfL+k4UQipBKQ3oYgdnV59kdlM8fIO6grYcLDBcTLAVYH2Acod2hoV8RZ1DK0HIIqUMsB3guMALcBZv6VSwdAkfoth2BXi6wUUQ8NpnJ6ZaewEEqnb/webkhnr6lEH4gfhp7h9NhbSrWE1J/Rktl/PCuZiDLyMSMxphdO1s7m4G1ZqT8CGFZeBvIpZcw8gryD2Do6gx81aG2G6EsIa8AH7VFILJ7bRwaeW/kqX5L6y+H1hNc6mGPV/lLjsj1gCTruwMBNH+xyMgOywAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA30lEQVQoz6WSzW6DMBCE/VwY/6y9xjZplSjX3KL2DfL+k4UQipBKQ3oYgdnV59kdlM8fIO6grYcLDBcTLAVYH2Acod2hoV8RZ1DK0HIIqUMsB3guMALcBZv6VSwdAkfoth2BXi6wUUQ8NpnJ6ZaewEEqnb/webkhnr6lEH4gfhp7h9NhbSrWE1J/Rktl/PCuZiDLyMSMxphdO1s7m4G1ZqT8CGFZeBvIpZcw8gryD2Do6gx81aG2G6EsIa8AH7VFILJ7bRwaeW/kqX5L6y+H1hNc6mGPV/lLjsj1gCTruwMBNH+xyMgOywAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;create project1&quot;
         title=&quot;create project1&quot;
-        src=&quot;/static/7a8fdc2f383bd29ac0bbdbca70e8144c/799d3/create-project1.png&quot;
-        srcset=&quot;/static/7a8fdc2f383bd29ac0bbdbca70e8144c/00d96/create-project1.png 148w,
-/static/7a8fdc2f383bd29ac0bbdbca70e8144c/0b23c/create-project1.png 295w,
-/static/7a8fdc2f383bd29ac0bbdbca70e8144c/799d3/create-project1.png 590w,
-/static/7a8fdc2f383bd29ac0bbdbca70e8144c/2a3d6/create-project1.png 885w,
-/static/7a8fdc2f383bd29ac0bbdbca70e8144c/ae92f/create-project1.png 1180w,
-/static/7a8fdc2f383bd29ac0bbdbca70e8144c/95489/create-project1.png 1228w&quot;
+        src=&quot;/static/7a8fdc2f383bd29ac0bbdbca70e8144c/fcda8/create-project1.png&quot;
+        srcset=&quot;/static/7a8fdc2f383bd29ac0bbdbca70e8144c/12f09/create-project1.png 148w,
+/static/7a8fdc2f383bd29ac0bbdbca70e8144c/e4a3f/create-project1.png 295w,
+/static/7a8fdc2f383bd29ac0bbdbca70e8144c/fcda8/create-project1.png 590w,
+/static/7a8fdc2f383bd29ac0bbdbca70e8144c/efc66/create-project1.png 885w,
+/static/7a8fdc2f383bd29ac0bbdbca70e8144c/c83ae/create-project1.png 1180w,
+/static/7a8fdc2f383bd29ac0bbdbca70e8144c/5148a/create-project1.png 1228w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -998,30 +1204,30 @@ retrieveUser 안에서 UserDetails 인터페이스의 loadByUserName을 호출�
     &lt;/span&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/54eee1bb047369c81dd89d9f61bc646e/95489/create-project2.png&quot;
+    href=&quot;/static/54eee1bb047369c81dd89d9f61bc646e/5148a/create-project2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.72312703583062%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA2klEQVQoz5WSaxLCIAyEey4t5dWElmqd8Qbe/xBrqK1THKr4Y4chgS+bQOM4gscIRwHaepw7g1bbQ5XyWyytjXYetmdwnOA4CJgXeCaJW4mXgGmfAY0nAdLqkt/AVMT4fieqc7gd1o6gjMuSJR25zB3SAE0TOpdcmAWsjF3Xl1pTOcPUmucBcb4hTBfQMKIPH5KYD0NtyyTAgHidV2BcCiRAJjlTBdyCnXyZfYslVQGPhv/Po+zBza+P/M3NSWmclRJpnNZ986tqSelymilf7lDzAxTlQcdpmf8TgKaBMykC5I0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA2klEQVQoz5WSaxLCIAyEey4t5dWElmqd8Qbe/xBrqK1THKr4Y4chgS+bQOM4gscIRwHaepw7g1bbQ5XyWyytjXYetmdwnOA4CJgXeCaJW4mXgGmfAY0nAdLqkt/AVMT4fieqc7gd1o6gjMuSJR25zB3SAE0TOpdcmAWsjF3Xl1pTOcPUmucBcb4hTBfQMKIPH5KYD0NtyyTAgHidV2BcCiRAJjlTBdyCnXyZfYslVQGPhv/Po+zBza+P/M3NSWmclRJpnNZ986tqSelymilf7lDzAxTlQcdpmf8TgKaBMykC5I0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;create project2&quot;
         title=&quot;create project2&quot;
-        src=&quot;/static/54eee1bb047369c81dd89d9f61bc646e/799d3/create-project2.png&quot;
-        srcset=&quot;/static/54eee1bb047369c81dd89d9f61bc646e/00d96/create-project2.png 148w,
-/static/54eee1bb047369c81dd89d9f61bc646e/0b23c/create-project2.png 295w,
-/static/54eee1bb047369c81dd89d9f61bc646e/799d3/create-project2.png 590w,
-/static/54eee1bb047369c81dd89d9f61bc646e/2a3d6/create-project2.png 885w,
-/static/54eee1bb047369c81dd89d9f61bc646e/ae92f/create-project2.png 1180w,
-/static/54eee1bb047369c81dd89d9f61bc646e/95489/create-project2.png 1228w&quot;
+        src=&quot;/static/54eee1bb047369c81dd89d9f61bc646e/fcda8/create-project2.png&quot;
+        srcset=&quot;/static/54eee1bb047369c81dd89d9f61bc646e/12f09/create-project2.png 148w,
+/static/54eee1bb047369c81dd89d9f61bc646e/e4a3f/create-project2.png 295w,
+/static/54eee1bb047369c81dd89d9f61bc646e/fcda8/create-project2.png 590w,
+/static/54eee1bb047369c81dd89d9f61bc646e/efc66/create-project2.png 885w,
+/static/54eee1bb047369c81dd89d9f61bc646e/c83ae/create-project2.png 1180w,
+/static/54eee1bb047369c81dd89d9f61bc646e/5148a/create-project2.png 1228w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1031,27 +1237,27 @@ retrieveUser 안에서 UserDetails 인터페이스의 loadByUserName을 호출�
 &lt;p&gt;지금 프로젝트에서는 이정도만 설치하자.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 381px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 381px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a74a451ca1809c5f5dca343e43f8ac19/c26d8/create-project3.png&quot;
+    href=&quot;/static/a74a451ca1809c5f5dca343e43f8ac19/2add2/create-project3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 167.97900262467192%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGUlEQVRIx+1W246bMBDlsxJ8wdwNmEuibpas+tJKrfoNVfvtpzNOYRVatJDX3YeRGBgfzrHHMxOYrEBZt8htjaJ2KKrGW0mWFhYyMmTxZguSvETb96ibxls3DN5vhzOqpoXUBmKHBWGUQRRnCHtBmA0I84H8Ew6hxFHqHWCRt0CaDJE9IeuuyNsLTNlDF/1uqdIkN4ZCEQspUFqLxjmYJEEolQ/ayo5j1QxoUmJEMk2OUOk5wAe/weoudtpDSUCR+wyd1XQAEQUkd8FyI+j0HDArqTVc16PpBn+6CaVSqKJdgIqU3iTzC5ad5FBxuvr3NbCl7EDGxU1y9wUitjiK13R5C3Qpd2ao4szLrdselm5NQ/JNmm/ax39PmfdKKb9vKd0aBuLbo+N0F+B8KJPko4xwEMrLPQg9H8oWyXdpI3QMnbfIysoz5ILAFhPjhxh6yVHk968hq9uOqo/z4I/tISUzO1yyKtdSpTl5tix9a+osAM3qoofy8H8vt+Tg2sGsMtx7l1cZ7qqBH4AfgO8S8NVuPXlpy2litac8wmyN7QzIJZ9rIBs/c53kns1twY8rfhgyc8zki7/rpjXBxM5RYX0arzhfRqrcDmE1Qr38QvP1N8T40/sVjXv8/dPzFZZGPW4VjgaDp/EF3YkGBPJnwJwqtutvk0NBg1OY0wQ2fId9/gHZf4MgPytK/2O2jBZzh+R1vMY2zvt/ANLNpCqygeCAAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 168.24324324324326%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGUlEQVRIx+1W246bMBDlsxJ8wdwNmEuibpas+tJKrfoNVfvtpzNOYRVatJDX3YeRGBgfzrHHMxOYrEBZt8htjaJ2KKrGW0mWFhYyMmTxZguSvETb96ibxls3DN5vhzOqpoXUBmKHBWGUQRRnCHtBmA0I84H8Ew6hxFHqHWCRt0CaDJE9IeuuyNsLTNlDF/1uqdIkN4ZCEQspUFqLxjmYJEEolQ/ayo5j1QxoUmJEMk2OUOk5wAe/weoudtpDSUCR+wyd1XQAEQUkd8FyI+j0HDArqTVc16PpBn+6CaVSqKJdgIqU3iTzC5ad5FBxuvr3NbCl7EDGxU1y9wUitjiK13R5C3Qpd2ao4szLrdselm5NQ/JNmm/ax39PmfdKKb9vKd0aBuLbo+N0F+B8KJPko4xwEMrLPQg9H8oWyXdpI3QMnbfIysoz5ILAFhPjhxh6yVHk968hq9uOqo/z4I/tISUzO1yyKtdSpTl5tix9a+osAM3qoofy8H8vt+Tg2sGsMtx7l1cZ7qqBH4AfgO8S8NVuPXlpy2litac8wmyN7QzIJZ9rIBs/c53kns1twY8rfhgyc8zki7/rpjXBxM5RYX0arzhfRqrcDmE1Qr38QvP1N8T40/sVjXv8/dPzFZZGPW4VjgaDp/EF3YkGBPJnwJwqtutvk0NBg1OY0wQ2fId9/gHZf4MgPytK/2O2jBZzh+R1vMY2zvt/ANLNpCqygeCAAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;create project3&quot;
         title=&quot;create project3&quot;
-        src=&quot;/static/a74a451ca1809c5f5dca343e43f8ac19/c26d8/create-project3.png&quot;
-        srcset=&quot;/static/a74a451ca1809c5f5dca343e43f8ac19/00d96/create-project3.png 148w,
-/static/a74a451ca1809c5f5dca343e43f8ac19/0b23c/create-project3.png 295w,
-/static/a74a451ca1809c5f5dca343e43f8ac19/c26d8/create-project3.png 381w&quot;
+        src=&quot;/static/a74a451ca1809c5f5dca343e43f8ac19/2add2/create-project3.png&quot;
+        srcset=&quot;/static/a74a451ca1809c5f5dca343e43f8ac19/12f09/create-project3.png 148w,
+/static/a74a451ca1809c5f5dca343e43f8ac19/e4a3f/create-project3.png 295w,
+/static/a74a451ca1809c5f5dca343e43f8ac19/2add2/create-project3.png 381w&quot;
         sizes=&quot;(max-width: 381px) 100vw, 381px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1061,27 +1267,27 @@ retrieveUser 안에서 UserDetails 인터페이스의 loadByUserName을 호출�
 &lt;p&gt;그리고 api, config 패키지를 다음과 같이 생성하자
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 335px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 335px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e8f5d0b76e218fb4cc60974b6599e546/9f328/folder1.png&quot;
+    href=&quot;/static/e8f5d0b76e218fb4cc60974b6599e546/c0051/folder1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 133.13432835820896%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADD0lEQVRIx51V2U7bQBT1P9A+VH3pC0uBComtJPFuj7exx0uclYBo1PL/f3B67ySmgIKS9OFo7PHcM+euNsIoQXP/BDlfYjRfQMQJHF8gjNMX+CLWCOhZJJneC8iOEa732KZvuTDi0MJw2uL3OMOyCtCOKoyHBfLMR5EFtHagdxkSgpdv3XdeZeojS4gw8B1IGeOpSbEY5pgQeVVKiNCBEO5bhGtseI4Ew4NxZ5Ihya6mj8hHc8hCwQ0EeiS/b3t7ghT2rRVhM56hGk2Rl7UmHdBH0/H2hiYMohjD2QItwfN89Eh1R7gvscEGLDWiTFXjOUrKeFWWOnt82XuDbRcYL0rIOJYFosUfRLNfyDKp95m0wy6qjdeHLIKbSESTR9TtmGov0gnyw0jXnOMHuyvUaujZdj0k5H49XUDVLXJVoahqQqNjzcXbCdgETTh45Qavd6YNj1SNH8j1ooRF+71XLq/ObSY1THaVDnQY2JR1clXVQ7TzByRpBkXqbJ19mxTaejWdt3YdjK8XFg7ObHw6/4cDXs9MfLkU+CaX+O4onJg5TqwVTu0Cn3+sz72DcXpr4+jGwTHh6NrB4ZWNw0sThz8DnKsprtMReqKEmdToC4WLgcCVk+Dk1tXnj2/ewrBJukOJ4NXzfT1t4oQmDCWmWT6jppqUeaEhKCkmuWxSWNhmE4y+DiYH2kec5Tp28/sJirKiWsx1bXINruLnrBO4LcsE7ueipV5+fIZSSl/QWxf05k5xP65Dvj0pKuTNGKoZoRqOkJC6jqy7dPdeXhMqIiyokCVNnIIQUjw39fNWQlYoywZqONad0Sn0QvGf04YI47xE2U60srJu4FEPm/bHsdqqMCOXecgyYV5WunfFByNsK+GAastRLdLZEwqa1kye0Pjii/YdtHpi9/omRFEjbSZUwIriWCKRinq41kNiH1KDZ11YSGSUCKXdrfUw4MRwLG3X30upwdMkn86Q0B8vJ3d59sXkruTyodG1+pknsIh4J4Xcv34zRzB5QkyGKfUstyCT8n8mlUonyPXDnQj/An3rvcg10a6/AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 133.1081081081081%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADD0lEQVRIx51V2U7bQBT1P9A+VH3pC0uBComtJPFuj7exx0uclYBo1PL/f3B67ySmgIKS9OFo7PHcM+euNsIoQXP/BDlfYjRfQMQJHF8gjNMX+CLWCOhZJJneC8iOEa732KZvuTDi0MJw2uL3OMOyCtCOKoyHBfLMR5EFtHagdxkSgpdv3XdeZeojS4gw8B1IGeOpSbEY5pgQeVVKiNCBEO5bhGtseI4Ew4NxZ5Ihya6mj8hHc8hCwQ0EeiS/b3t7ghT2rRVhM56hGk2Rl7UmHdBH0/H2hiYMohjD2QItwfN89Eh1R7gvscEGLDWiTFXjOUrKeFWWOnt82XuDbRcYL0rIOJYFosUfRLNfyDKp95m0wy6qjdeHLIKbSESTR9TtmGov0gnyw0jXnOMHuyvUaujZdj0k5H49XUDVLXJVoahqQqNjzcXbCdgETTh45Qavd6YNj1SNH8j1ooRF+71XLq/ObSY1THaVDnQY2JR1clXVQ7TzByRpBkXqbJ19mxTaejWdt3YdjK8XFg7ObHw6/4cDXs9MfLkU+CaX+O4onJg5TqwVTu0Cn3+sz72DcXpr4+jGwTHh6NrB4ZWNw0sThz8DnKsprtMReqKEmdToC4WLgcCVk+Dk1tXnj2/ewrBJukOJ4NXzfT1t4oQmDCWmWT6jppqUeaEhKCkmuWxSWNhmE4y+DiYH2kec5Tp28/sJirKiWsx1bXINruLnrBO4LcsE7ueipV5+fIZSSl/QWxf05k5xP65Dvj0pKuTNGKoZoRqOkJC6jqy7dPdeXhMqIiyokCVNnIIQUjw39fNWQlYoywZqONad0Sn0QvGf04YI47xE2U60srJu4FEPm/bHsdqqMCOXecgyYV5WunfFByNsK+GAastRLdLZEwqa1kye0Pjii/YdtHpi9/omRFEjbSZUwIriWCKRinq41kNiH1KDZ11YSGSUCKXdrfUw4MRwLG3X30upwdMkn86Q0B8vJ3d59sXkruTyodG1+pknsIh4J4Xcv34zRzB5QkyGKfUstyCT8n8mlUonyPXDnQj/An3rvcg10a6/AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;folder1&quot;
         title=&quot;folder1&quot;
-        src=&quot;/static/e8f5d0b76e218fb4cc60974b6599e546/9f328/folder1.png&quot;
-        srcset=&quot;/static/e8f5d0b76e218fb4cc60974b6599e546/00d96/folder1.png 148w,
-/static/e8f5d0b76e218fb4cc60974b6599e546/0b23c/folder1.png 295w,
-/static/e8f5d0b76e218fb4cc60974b6599e546/9f328/folder1.png 335w&quot;
+        src=&quot;/static/e8f5d0b76e218fb4cc60974b6599e546/c0051/folder1.png&quot;
+        srcset=&quot;/static/e8f5d0b76e218fb4cc60974b6599e546/12f09/folder1.png 148w,
+/static/e8f5d0b76e218fb4cc60974b6599e546/e4a3f/folder1.png 295w,
+/static/e8f5d0b76e218fb4cc60974b6599e546/c0051/folder1.png 335w&quot;
         sizes=&quot;(max-width: 335px) 100vw, 335px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1096,28 +1302,28 @@ retrieveUser 안에서 UserDetails 인터페이스의 loadByUserName을 호출�
 &lt;p&gt;그리고 어떤 요청을 해보면 다음과 같이 401에러를 내려준다.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0a20b97e823bafceb604dde4448a2d39/3eaa1/api-call1.png&quot;
+    href=&quot;/static/0a20b97e823bafceb604dde4448a2d39/66caf/api-call1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 46.307151230949586%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABk0lEQVQoz4VRS5bTMBD0OZJJMs5g2dbHkizLku3ECTOzYgEnYMMFeKy4DcfhWkVLJI/ZAIt6avWnuru6WNcL1nXFPM/w3mNZFhitwTmHECIj2W//Iv2FRPXlBx6+/QT79B3XU8Tl+ozi5XrBeZkzUZwifPCIMUKZDm5wML2FHwaMYUTf9xkuvw785TPYh68w60dcxh7v1zOK1fc4EYlSClJK6syzLaSApknlzX+PJyR/T41kfYSsDlCcQbYNgh9QsLalBIOa1ajrP2CM5WnSism+x1nFYIzBNE0kgyBfi4Ze2dSItFExjz4XKt3B2j6vqo2Gcy5PkwhVRz5L01qV48YadPRPeUorBKMwKI6JZClezzNOpyUfZCLtxhhy9zHQS4eK44jgLElA5IpWvuG3rbKtCZHWjVRbsKa5JXTgSTuSQJGOnDRJiZrshlUoyxLH4/GfSEMVKXG320OGFdYH2LaCqJ7w9HjAu/KAqnzEw25HOX/Hfr/HZrPJh8uEJbE32mXxDxRMDRLJHangf9hut/lYvwCLohJxT4SiYQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABk0lEQVQoz4VRS5bTMBD0OZJJMs5g2dbHkizLku3ECTOzYgEnYMMFeKy4DcfhWkVLJI/ZAIt6avWnuru6WNcL1nXFPM/w3mNZFhitwTmHECIj2W//Iv2FRPXlBx6+/QT79B3XU8Tl+ozi5XrBeZkzUZwifPCIMUKZDm5wML2FHwaMYUTf9xkuvw785TPYh68w60dcxh7v1zOK1fc4EYlSClJK6syzLaSApknlzX+PJyR/T41kfYSsDlCcQbYNgh9QsLalBIOa1ajrP2CM5WnSism+x1nFYIzBNE0kgyBfi4Ze2dSItFExjz4XKt3B2j6vqo2Gcy5PkwhVRz5L01qV48YadPRPeUorBKMwKI6JZClezzNOpyUfZCLtxhhy9zHQS4eK44jgLElA5IpWvuG3rbKtCZHWjVRbsKa5JXTgSTuSQJGOnDRJiZrshlUoyxLH4/GfSEMVKXG320OGFdYH2LaCqJ7w9HjAu/KAqnzEw25HOX/Hfr/HZrPJh8uEJbE32mXxDxRMDRLJHangf9hut/lYvwCLohJxT4SiYQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;api call1&quot;
         title=&quot;api call1&quot;
-        src=&quot;/static/0a20b97e823bafceb604dde4448a2d39/799d3/api-call1.png&quot;
-        srcset=&quot;/static/0a20b97e823bafceb604dde4448a2d39/00d96/api-call1.png 148w,
-/static/0a20b97e823bafceb604dde4448a2d39/0b23c/api-call1.png 295w,
-/static/0a20b97e823bafceb604dde4448a2d39/799d3/api-call1.png 590w,
-/static/0a20b97e823bafceb604dde4448a2d39/3eaa1/api-call1.png 853w&quot;
+        src=&quot;/static/0a20b97e823bafceb604dde4448a2d39/fcda8/api-call1.png&quot;
+        srcset=&quot;/static/0a20b97e823bafceb604dde4448a2d39/12f09/api-call1.png 148w,
+/static/0a20b97e823bafceb604dde4448a2d39/e4a3f/api-call1.png 295w,
+/static/0a20b97e823bafceb604dde4448a2d39/fcda8/api-call1.png 590w,
+/static/0a20b97e823bafceb604dde4448a2d39/66caf/api-call1.png 853w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1184,27 +1390,27 @@ attemptAuthentication메소드를 재정의 해주면 된다.&lt;/p&gt;
 &lt;p&gt;그리고 attemptAuthentication 추상 메소드를 override해서 구현해주자.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 589px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 589px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6bff064fcd41f95f89cfb4739226d8a6/b9f62/implement.png&quot;
+    href=&quot;/static/6bff064fcd41f95f89cfb4739226d8a6/b1665/implement.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 18.84550084889643%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAxklEQVQY023I206DQBRGYV7GtIgVQk1UCu2IMBxmbBC1jY2nm8pr2MTExPadlwN4YYIXX/a/l5XmiqzUyEKTZgW5WpLmJeHiakBcSzx/im3bOM6J4QxYcZIg4phESuZCMIuiThCGA7Nojuu5jEdHHNujf4yx1O2GsnpE1RuymxVSPxgr8mVrbdq66+1uTS8EE+8c1w849S//CJi4Z1hVc6B+//61567Zd7du+t26N6pt3/XrJ+XzDvXSK5525v9Av32x0Ft+AGPBkiPA3R6wAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 18.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAxklEQVQY023I206DQBRGYV7GtIgVQk1UCu2IMBxmbBC1jY2nm8pr2MTExPadlwN4YYIXX/a/l5XmiqzUyEKTZgW5WpLmJeHiakBcSzx/im3bOM6J4QxYcZIg4phESuZCMIuiThCGA7Nojuu5jEdHHNujf4yx1O2GsnpE1RuymxVSPxgr8mVrbdq66+1uTS8EE+8c1w849S//CJi4Z1hVc6B+//61567Zd7du+t26N6pt3/XrJ+XzDvXSK5525v9Av32x0Ft+AGPBkiPA3R6wAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;implement&quot;
         title=&quot;implement&quot;
-        src=&quot;/static/6bff064fcd41f95f89cfb4739226d8a6/b9f62/implement.png&quot;
-        srcset=&quot;/static/6bff064fcd41f95f89cfb4739226d8a6/00d96/implement.png 148w,
-/static/6bff064fcd41f95f89cfb4739226d8a6/0b23c/implement.png 295w,
-/static/6bff064fcd41f95f89cfb4739226d8a6/b9f62/implement.png 589w&quot;
+        src=&quot;/static/6bff064fcd41f95f89cfb4739226d8a6/b1665/implement.png&quot;
+        srcset=&quot;/static/6bff064fcd41f95f89cfb4739226d8a6/12f09/implement.png 148w,
+/static/6bff064fcd41f95f89cfb4739226d8a6/e4a3f/implement.png 295w,
+/static/6bff064fcd41f95f89cfb4739226d8a6/b1665/implement.png 589w&quot;
         sizes=&quot;(max-width: 589px) 100vw, 589px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1275,11 +1481,11 @@ SecurityConfig에서 AuthenticationManager를 등록해야한다. 그리고 기�
                 &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;csrf&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;disable&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
                 &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;sessionManagement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;sessionCreationPolicy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SessionCreationPolicy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;STATELESS&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
                 &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;and&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; add jwt filters &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.&lt;/span&gt; authentication&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt; authorization&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;token comment&quot;&gt;// add jwt filters (1. authentication, 2. authorization)&lt;/span&gt;
                 &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addFilter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;jwtAuthenticationFilter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
                 &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addFilter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;jwtAuthorizationFilter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
                 &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;authorizeRequests&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; configure access rules
+                &lt;span class=&quot;token comment&quot;&gt;// configure access rules&lt;/span&gt;
                 &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;antMatchers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;HttpMethod&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;POST&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/api/auth/**&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;permitAll&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
                 &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;antMatchers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/h2-console/**&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;permitAll&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
                 &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;antMatchers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/api/public/management/*&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;hasRole&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;MANAGER&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -1334,213 +1540,7 @@ SecurityConfig에서 AuthenticationManager를 등록해야한다. 그리고 기�
 &lt;li&gt;UserDetailsService 구현체 CustomUserDetailsService&lt;/li&gt;
 &lt;li&gt;ErrorResponseDTO&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;는 다음포스트에서 만들자&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 1 )]]></title><description><![CDATA[프로젝트 생성 위 커맨드로 프로젝트를 만들어주고 라우팅을 위해 다음을 설치한다. 이후 App.tsx 파일 안에 다음과 같이 라우팅 해줍니다. 일반적으로 react-router-dom 공식 사이트에서는 
-BrowserRouter…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_1/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_1/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;프로젝트-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;프로젝트 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;프로젝트 생성&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;npx create-react-app &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;프로젝트 명&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; --typescript&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;위 커맨드로 프로젝트를 만들어주고 라우팅을 위해 다음을 설치한다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; i react-router-dom @types/react-router-dom &lt;span class=&quot;token function&quot;&gt;history&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이후 App.tsx 파일 안에 다음과 같이 라우팅 해줍니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;Router &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Route&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Switch&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-router-dom&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;createBrowserHistory&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;history&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; LoginForm &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./components/LoginForm&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; history &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createBrowserHistory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;history&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;history&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Switch&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Route&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;LoginForm&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/login&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;exact&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Switch&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; App&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;일반적으로 &lt;a href=&quot;&amp;#x27;https://reacttraining.com/react-router/web/guides/quick-start&amp;#x27;&quot;&gt;react-router-dom&lt;/a&gt; 공식 사이트에서는
-BrowserRouter를 사용하는데 나 같은 경우에는 조금있다가 사용할 redux 미들웨어인 thunk 함수내에서 라우팅을 하기 위해서
-추상화된 BrowserRouter 대신 기본 Router를 사용하고 history를 직접 넣었다.&lt;/p&gt;
-&lt;p&gt;이제 로그인폼 컴포넌트를 만들어보자. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;nashornjs&quot;&gt;&lt;pre class=&quot;language-nashornjs&quot;&gt;&lt;code class=&quot;language-nashornjs&quot;&gt;npm i formik&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;사실 다른 form 상태관리 라이브러리는 사용해보지 않았다... 그냥 npm trend에서 많이 사용한다길래 선택한 것일 뿐
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/5a18d/formik-npm-trend.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 40.31531531531532%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABYElEQVQoz1VS7VLEIAzs+z+kP3Q8r/X6AbQhQMK67amjzOyQhbDZAEOMESEEpJQwLQn32zu2eYK5QyzDW4NnhbuiO7l3tN7Rm3PdAHT8HYOZ/ZLX4ChpRk8Tcqu4lTvakdDvI7pNqPqBKI5JDY8x4/NlR+b5o/gFqY5BRFBqQzkr0pV/1yyto1Zgrx2Bc9Rv0NVOwdOlMD+IXUJ7MXbVMWgp2KRyo2E92pV8Cm/kB5NyNYobtJ0HDJ1CfsKfBq7y/YRfe4OqQuguc0+5HtQv8UhXNAf1JwrjM+cH6v85b+LKp2BGU4FVXnoVLGxpFKCRe+Mj6M6+N2IhHsRKTMQdSB/ojPs+wiJjDRhqLajhHba8wtY3lOUJX5/c0w0mn7A881VXuDzIN2In0hU7Z5cIp4nh7FtzpIkZOQW+6oqyjZC4ouYdyrUcVrScoHSqYUPjF6v8ajLPqGfMr3csLMRuvwDfXm+dlnRFWQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;formik npm trend&quot;
-        title=&quot;formik npm trend&quot;
-        src=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/799d3/formik-npm-trend.png&quot;
-        srcset=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/00d96/formik-npm-trend.png 148w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/0b23c/formik-npm-trend.png 295w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/799d3/formik-npm-trend.png 590w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/2a3d6/formik-npm-trend.png 885w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/ae92f/formik-npm-trend.png 1180w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/5a18d/formik-npm-trend.png 1332w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-그리고 이거는 방금안 사실인데 그냥 formik만 사용하기엔 너무 밋밋해 보일 것같아서 antd를 사용해 기본적인 디자인을 주려했는데
-아예 결합된 라이브러리가 있었다. 그래서 설치했다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;nashornjs&quot;&gt;&lt;pre class=&quot;language-nashornjs&quot;&gt;&lt;code class=&quot;language-nashornjs&quot;&gt;npm i formik-antd antd&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;기본적으로 form 상태 관리를 사용하지 않으면 다음과같이 코드량이 상당히 늘어나고 관리하기도 힘들다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;useState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ChangeEvent&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;LoginForm&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;setEmail&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;setPassword&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; onChangeEmail &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ChangeEvent&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;HTMLInputElement&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;)=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token function&quot;&gt;setEmail&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-  const onChangePassword = (e : ChangeEvent&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;HTMLInputElement&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;)=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token function&quot;&gt;setPassword&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-  return (
-      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;onChange&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;onChangeEmail&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;onChange&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;onChangePassword&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;  
-    )
-}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;기본적으로 입력 받고 상태만 관리하는데 벌써 코드량이 많아졌다.. 물론 changeMethod도 하나로 하고 useState도 하나로면
-더 줄일 수 있겠으나 여간 귀찮은게 아니다. 그런데 formik 라이브러리를 사용하면&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Button &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;antd&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; SubmitButton&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Form&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Input &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;formik-antd&apos;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Formik &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;formik&apos;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Link &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-router-dom&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ILoginValue&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  email&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  password&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;LoginForm&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; initialValue&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ILoginValue &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;email&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; password&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;padding &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;24px&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; width&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;300px&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Formik&lt;/span&gt;&lt;/span&gt;
-          &lt;span class=&quot;token attr-name&quot;&gt;initialValues&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;initialValue&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
-          &lt;span class=&quot;token attr-name&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-            &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Form&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-              &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* every formik-antd component must have the &apos;name&apos; prop set: */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-              &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;이메일&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-              &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;패스워드&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-              &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* the rest of the api stays as is */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-              &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SubmitButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;로그인&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SubmitButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Form&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-          &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
-          &lt;span class=&quot;token attr-name&quot;&gt;onSubmit&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;value&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;helpers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;helpers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setSubmitting&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;token builtin&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Link&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/signup&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Button&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;회원가입하기&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Button&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Link&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; LoginForm&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;다음과 같이 깔끔해진다. 로그인 만들었던 것 처럼 회원가입도 만들자!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; SubmitButton&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Form&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Input &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;formik-antd&apos;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Formik &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;formik&apos;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ISignupValue&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  email&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  username&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  password&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;SignUpForm&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; initialValue&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ISignupValue &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;email&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; username&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; password&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;padding &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;24px&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; width&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;300px&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Formik&lt;/span&gt;&lt;/span&gt;
-        &lt;span class=&quot;token attr-name&quot;&gt;initialValues&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;initialValue&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
-        &lt;span class=&quot;token attr-name&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-          &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Form&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* every formik-antd component must have the &apos;name&apos; prop set: */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;이메일&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;username&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;이름&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Input&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;패스워드&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* the rest of the api stays as is */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SubmitButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;회원가입&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SubmitButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-          &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Form&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
-        &lt;span class=&quot;token attr-name&quot;&gt;onSubmit&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;value&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;helpers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-          &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;helpers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setSubmitting&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-          &lt;span class=&quot;token builtin&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; SignUpForm&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 326px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/91ed7c60c05beeea003f48c853d365db/67d8f/formik-login-form.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 61.34969325153374%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABIElEQVQoz6VSQU7DMBDMgQ/wBMQHeBSncuAHXFBBXBFH+AUScEBI9M6dUyUORakosQmOa3vtYe2SqK2oYmCk1TjJejxZTwFGCAEt4vqvFVHEBRHBGAOtNay18N7/uqJGJ+icg1INqqpCXdfw/O5fgs3cQGl2aGziZm7ZqYOzNjnOqRVBgB/sB7NmrpnNYp7Ix4rg1RPh6IFwOnIYjgjHj4TxO6WDnKPU3Ffxt78Fgb1LYPvMYefcYfeCsDUMuB+H5JF8/g13Dk/Y1f51wMEtcHjnMbgJeH6LTT45XN6wCa1wsbDqoeQM5eQFYlZCTF9RlhNIKbtbzMlo59DG2DQxNgKfHB8hJLNK2YyRWhbsQ9HX2H5bn9VGwfUNPw06VyziCyJ3pveFdjK1AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;formik login form&quot;
-        title=&quot;formik login form&quot;
-        src=&quot;/static/91ed7c60c05beeea003f48c853d365db/67d8f/formik-login-form.png&quot;
-        srcset=&quot;/static/91ed7c60c05beeea003f48c853d365db/00d96/formik-login-form.png 148w,
-/static/91ed7c60c05beeea003f48c853d365db/0b23c/formik-login-form.png 295w,
-/static/91ed7c60c05beeea003f48c853d365db/67d8f/formik-login-form.png 326w&quot;
-        sizes=&quot;(max-width: 326px) 100vw, 326px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;그리고 라우팅도 추가해주자&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;Router &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Route&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-router-dom&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;createBrowserHistory&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;history&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; LoginForm &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./components/LoginForm&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; SignUpForm &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./components/SignUpForm&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; history &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createBrowserHistory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;history&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;history&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Route&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;exact&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;LoginForm&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/login&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Route&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;exact&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SignUpForm&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/signup&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; App&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;기본적인 회원가입 및 로그인 컴포넌트를 완성했다.&lt;/p&gt;
-&lt;p&gt;다음 포스트에서는 Spring Boot를 활용한 JWT 로그인, 회원가입을 구현해볼 예정이다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[StyledComponent v4 빌드 에러 및 nextjs에서 v5 이슈]]></title><description><![CDATA[오늘 업무를 하던 도중 styled-components v4버전 대에 build할 때 에러가 있었고 그에러가 뭐였는지 기억이 안나는데
+&lt;p&gt;는 다음포스트에서 만들자&lt;/p&gt;</content:encoded></item><item><title><![CDATA[StyledComponent v4 빌드 에러 및 nextjs에서 v5 이슈]]></title><description><![CDATA[오늘 업무를 하던 도중 styled-components v4버전 대에 build할 때 에러가 있었고 그에러가 뭐였는지 기억이 안나는데
 대충 깃헙이슈를 보니 v5 최신버전을 설치하거나 특정 type을 삭제하고 @type…]]></description><link>https://jiinwoo.github.io/styled-components-build-error-with-nextjs/</link><guid isPermaLink="false">https://jiinwoo.github.io/styled-components-build-error-with-nextjs/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;오늘 업무를 하던 도중 styled-components v4버전 대에 build할 때 에러가 있었고 그에러가 뭐였는지 기억이 안나는데
 대충 깃헙이슈를 보니 v5 최신버전을 설치하거나 특정 type을 삭제하고 @type에 커스텀해서 추가하라는데 귀찮아서
 그냥 v5를 새로설치했다. &lt;/p&gt;
