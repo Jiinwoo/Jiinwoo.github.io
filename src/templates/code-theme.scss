@@ -177,7 +177,7 @@
       border-right: 3px #d9d336 solid;
     }
   }
-
+  --deckgo-highlight-code-font-family: "Nanum Gothic Coding";
   &.light {
     /**
  * GHColors theme by Avi Aryan (http://aviaryan.in)
@@ -187,7 +187,10 @@
     code[class*='language-'],
     pre[class*='language-'] {
       color: #393a34;
-      font-family: 'Consolas', 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+
+      //font-family: var(--deckgo-highlight-code-font-family);
+      //font-family: "Nanum Gothic Coding", monospace;
+      font-family: var(--deckgo-highlight-code-font-family) !important;
       direction: ltr;
       text-align: left;
       white-space: pre;

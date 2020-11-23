@@ -8,6 +8,8 @@ import { config as FaConfig, dom as FaDom } from '@fortawesome/fontawesome-svg-c
 import { FontAwesomeIcon as Fa } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 import { useColorMode } from 'theme-ui';
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 import Header from '../Header';
 import './layout.scss';

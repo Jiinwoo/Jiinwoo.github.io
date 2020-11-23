@@ -43,6 +43,7 @@ const Post = (props: postProps) => {
   const { data, pageContext, isMobile } = props;
   const { markdownRemark } = data;
   const { frontmatter, html, tableOfContents, fields, excerpt } = markdownRemark;
+  console.log(tableOfContents, 'TOC')
   const { title, date, tags, keywords } = frontmatter;
   let update = frontmatter.update;
   if (Number(update?.split(',')[1]) === 1) update = null;
@@ -259,6 +260,9 @@ const Post = (props: postProps) => {
             ) : null}
 
             <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
+            <div
+              dangerouslySetInnerHTML={{ __html: tableOfContents }}>
+            </div>
           </div>
 
           {isSocialShare ? (

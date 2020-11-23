@@ -9,6 +9,8 @@ import Bio from '../components/Bio';
 import './styles/index.scss';
 import PostList from '../components/PostList';
 
+
+
 export interface IndexPageProps {
   path: string;
   location: any;
