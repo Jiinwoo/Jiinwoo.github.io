@@ -260,9 +260,6 @@ const Post = (props: postProps) => {
             ) : null}
 
             <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
-            <div
-              dangerouslySetInnerHTML={{ __html: tableOfContents }}>
-            </div>
           </div>
 
           {isSocialShare ? (
