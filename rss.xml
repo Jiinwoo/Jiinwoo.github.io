@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JiinWoo's Blog | Feed]]></title><description><![CDATA[어디서 주워들은거 끄적이기]]></description><link>https://jiinwoo.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 Nov 2020 13:44:52 GMT</lastBuildDate><item><title><![CDATA[효율적으로 언어 배우기]]></title><description><![CDATA[…]]></description><link>https://jiinwoo.github.io/tech-of-supporting-coding_1/</link><guid isPermaLink="false">https://jiinwoo.github.io/tech-of-supporting-coding_1/</guid><pubDate>Mon, 23 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JiinWoo's Blog | Feed]]></title><description><![CDATA[어디서 주워들은거 끄적이기]]></description><link>https://jiinwoo.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Dec 2020 15:36:39 GMT</lastBuildDate><item><title><![CDATA[문법, 처리흐름 제어]]></title><description><![CDATA[본 포스팅은 니시오 히로카즈의 '코딩을 지탱하는 기술' 을 읽은 뒤 쓰는 글입니다. 문법이란 무엇일까 프로그래밍 언어를 배울 때 "연산자 우선순위"라는 문법을 배운다. 
+'1 + 2 *…]]></description><link>https://jiinwoo.github.io/tech-of-supporting-coding_2/</link><guid isPermaLink="false">https://jiinwoo.github.io/tech-of-supporting-coding_2/</guid><pubDate>Thu, 03 Dec 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;본 포스팅은 니시오 히로카즈의 &apos;코딩을 지탱하는 기술&apos; 을 읽은 뒤 쓰는 글입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;문법이란-무엇일까&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EB%B2%95%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C&quot; aria-label=&quot;문법이란 무엇일까 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EB%AC%B8%EB%B2%95%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C&quot; aria-label=&quot;문법이란 무엇일까 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문법이란 무엇일까&lt;/h2&gt;
+&lt;p&gt;프로그래밍 언어를 배울 때 &quot;연산자 우선순위&quot;라는 문법을 배운다.
+&apos;1 + 2 * 3&apos; 같은 식에서 어느 순서대로 계산이 먼저될지 배우는 것인데 옛날에는 (1+2)*3의 형태로 계산되는 경우도 있다고 한다.
+하지만 지금 대부분은 7이 나오는데 그 이유는 각 프로그래밍 언어에서 &quot;+보다 *가 연산자가 높기 때문에 먼저 계산한다.&quot;라는 규칙을 정했기 때문이다.&lt;/p&gt;
+&lt;p&gt;여기에서 알 수 있듯이 문법이란 언어 설계자가 정한 규칙이다. &lt;/p&gt;
+&lt;h2 id=&quot;스택머신&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8A%A4%ED%83%9D%EB%A8%B8%EC%8B%A0&quot; aria-label=&quot;스택머신 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EC%8A%A4%ED%83%9D%EB%A8%B8%EC%8B%A0&quot; aria-label=&quot;스택머신 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;스택머신&lt;/h2&gt;
+&lt;h3 id=&quot;forth의-스택머신&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#forth%EC%9D%98-%EC%8A%A4%ED%83%9D%EB%A8%B8%EC%8B%A0&quot; aria-label=&quot;forth의 스택머신 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#forth%EC%9D%98-%EC%8A%A4%ED%83%9D%EB%A8%B8%EC%8B%A0&quot; aria-label=&quot;forth의 스택머신 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;FORTH의 스택머신&lt;/h3&gt;
+&lt;p&gt;FORTH는 &apos;1과 2를 더한다&apos;를 다음과 같이 쓴다.&lt;/p&gt;
+&lt;deckgo-highlight-code   terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;    1 2 +&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이렇게 쓰는데에는 스택을 사용하기 때문이다. &lt;/p&gt;
+&lt;p&gt;처음에 &apos;1&apos;을 스택에 담고 다음 &apos;2&apos;도 스택에 담는다. 마지막 &apos;+&apos; 연산자를 만나 스택에서 2개를 꺼내 더한뒤 다시 스택에 담는다.
+최종 결과인 3이 나온다.&lt;/p&gt;
+&lt;h3 id=&quot;지금은--1-2--이렇게-안쓰는데요&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%80%EA%B8%88%EC%9D%80--1-2--%EC%9D%B4%EB%A0%87%EA%B2%8C-%EC%95%88%EC%93%B0%EB%8A%94%EB%8D%B0%EC%9A%94&quot; aria-label=&quot;지금은  1 2  이렇게 안쓰는데요 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EC%A7%80%EA%B8%88%EC%9D%80--1-2--%EC%9D%B4%EB%A0%87%EA%B2%8C-%EC%95%88%EC%93%B0%EB%8A%94%EB%8D%B0%EC%9A%94&quot; aria-label=&quot;지금은  1 2  이렇게 안쓰는데요 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;지금은  1 2 + 이렇게 안쓰는데요?&lt;/h3&gt;
+&lt;p&gt;지금은 1 + 2 이렇게 사용하나 내부적으로는 FORTH 방식으로 실행된다!&lt;/p&gt;
+&lt;h2 id=&quot;구문트리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B5%AC%EB%AC%B8%ED%8A%B8%EB%A6%AC&quot; aria-label=&quot;구문트리 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EA%B5%AC%EB%AC%B8%ED%8A%B8%EB%A6%AC&quot; aria-label=&quot;구문트리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;구문트리&lt;/h2&gt;
+&lt;p&gt;(1+2)*3 을 LISP, FORTH와 비교해보자. &lt;/p&gt;
+&lt;p&gt;LISP : (*(+ 1 2)3)&lt;/p&gt;
+&lt;p&gt;FORTH: 1 2 + 3 *&lt;/p&gt;
+&lt;p&gt;각 언어별로 나타나는 형태는 다르지만 추상 구문트리는 동일하게 나온다.
+이 추상 구문트리를 전위, 중위, 후위 표기법에 따라 나타낼 뿐 의미는 동일하다. &lt;/p&gt;
+&lt;h2 id=&quot;if가-없었던-때가-있었다고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#if%EA%B0%80-%EC%97%86%EC%97%88%EB%8D%98-%EB%95%8C%EA%B0%80-%EC%9E%88%EC%97%88%EB%8B%A4%EA%B3%A0&quot; aria-label=&quot;if가 없었던 때가 있었다고 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#if%EA%B0%80-%EC%97%86%EC%97%88%EB%8D%98-%EB%95%8C%EA%B0%80-%EC%9E%88%EC%97%88%EB%8B%A4%EA%B3%A0&quot; aria-label=&quot;if가 없었던 때가 있었다고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;if가 없었던 때가 있었다고?&lt;/h2&gt;
+&lt;p&gt;원시적인 어셈블리어에는 if문이 없다. 하지만 C언어에는 if문이 있는데 C언어에서 if문을 사용하고 어셈블리어로 컴파일 하면 어셈블리어에서 movl, cmpl 명령어를 확인 할 수 있다.&lt;/p&gt;
+&lt;p&gt;이 movl명령어는 뒤의 주소로 점프하라는 명령, cmpl은 비교하는 명령어다. &lt;/p&gt;
+&lt;h2 id=&quot;if-else의-장점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#if-else%EC%9D%98-%EC%9E%A5%EC%A0%90&quot; aria-label=&quot;if else의 장점 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#if-else%EC%9D%98-%EC%9E%A5%EC%A0%90&quot; aria-label=&quot;if else의 장점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;if-else의 장점&lt;/h2&gt;
+&lt;p&gt;c언어에서 else문 없이 코드를 작성할 수 있을까? if 문과 goto를 사용하면 가능하다. 하지만 가독성 면에서 goto를 사용하는것에 비해 떨어지기 때문에 if else 구문을 사용하는 것이 낫다.&lt;/p&gt;
+&lt;h2 id=&quot;반복-while-if&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B0%98%EB%B3%B5-while-if&quot; aria-label=&quot;반복 while if permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EB%B0%98%EB%B3%B5-while-if&quot; aria-label=&quot;반복 while if permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;반복 (while, if)&lt;/h2&gt;
+&lt;p&gt;while은 대체할 수 있을까? 어셈블리어는 movl, cmpl사용하면 가능할 것 같다. 그렇다면 C언어에서는 if와 goto를 사용하면 while문을 대체할 수 있을것같다. &lt;/p&gt;
+&lt;p&gt;하지만 그렇다면 while문은 대체 왜 쓰는 것일까? 그 이유는 &apos;읽기 쉽게&apos;, &apos;쓰기 쉽게&apos; 위함이다. goto는 너무 강력하기 때문에 자칫 잘못하면 프로그램이 엉망이 되어버릴 수 있기 때문에
+사용하지 않고 while사용을 하는 것이다. &lt;/p&gt;
+&lt;p&gt;for, foreach 문도 while로 대체가 가능하다. 하지만 위와 같은 이유인 &apos;읽기 쉽게&apos;, &apos;쓰기 쉽게&apos; 하기 위해 탄생한 것이다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[효율적으로 언어 배우기, 프로그래밍 언어를 조감하다.]]></title><description><![CDATA[…]]></description><link>https://jiinwoo.github.io/tech-of-supporting-coding_1/</link><guid isPermaLink="false">https://jiinwoo.github.io/tech-of-supporting-coding_1/</guid><pubDate>Mon, 23 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;본 포스팅은 니시오 히로카즈의 &apos;코딩을 지탱하는 기술&apos; 을 읽은 뒤 쓰는 글입니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;비교를-통한-배움&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B9%84%EA%B5%90%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%EC%9B%80&quot; aria-label=&quot;비교를 통한 배움 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EB%B9%84%EA%B5%90%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%EC%9B%80&quot; aria-label=&quot;비교를 통한 배움 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;비교를 통한 배움&lt;/h2&gt;
@@ -28,8 +63,23 @@
 &lt;h2 id=&quot;역사를-통한-배움&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%AD%EC%82%AC%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%EC%9B%80&quot; aria-label=&quot;역사를 통한 배움 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EC%97%AD%EC%82%AC%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%EC%9B%80&quot; aria-label=&quot;역사를 통한 배움 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;역사를 통한 배움&lt;/h2&gt;
 &lt;p&gt;언어가 가진 각 기능들은 어떠한 문제들을 해결하려고 나왔다.
 역으로 생각해 보면 어떠한 흐름을 따라 만들어졌는지 알게 된다면 해당 언어의 기능을 보다 자세히 알 수 있을것이다.&lt;/p&gt;
-&lt;p&gt;그리고 특정 언어에 국한된 지식보다 보다 보편적인 지식이 중요하다고 생각된다.&lt;br&gt;
-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring in Action 5판 3챕터 에러]]></title><description><![CDATA[최근에 스프링 인 액션…]]></description><link>https://jiinwoo.github.io/spring-in-action-5-3ch-bug/</link><guid isPermaLink="false">https://jiinwoo.github.io/spring-in-action-5-3ch-bug/</guid><pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;최근에 스프링 인 액션 5 책을 보고있는데 문제점이 한두개가 아니다. 책 소개글에 이전 버전에 나타난 여러 문제들을 해결했다고
+&lt;h2 id=&quot;프로그래밍-언어-탄생의-역사&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%96%B8%EC%96%B4-%ED%83%84%EC%83%9D%EC%9D%98-%EC%97%AD%EC%82%AC&quot; aria-label=&quot;프로그래밍 언어 탄생의 역사 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%96%B8%EC%96%B4-%ED%83%84%EC%83%9D%EC%9D%98-%EC%97%AD%EC%82%AC&quot; aria-label=&quot;프로그래밍 언어 탄생의 역사 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;프로그래밍 언어 탄생의 역사&lt;/h2&gt;
+&lt;p&gt;1946년 에니악, 에드삭이 나왔을 때 진공관을 일일히 연결하거나 종이에 구멍을 뚫는 등의 &apos;기계어&apos;를 사용했다. 하지만 이 기계어는 사람이 읽기에
+불편했으며 처리할 수 있는 데이터의 양도 적었다.&lt;/p&gt;
+&lt;h3 id=&quot;fortran&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fortran&quot; aria-label=&quot;fortran permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#fortran&quot; aria-label=&quot;fortran permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;FORTRAN&lt;/h3&gt;
+&lt;p&gt;요즘 우리가 일반적으로 쓰는 x + y 같은 표현이 처음 사용되었던 언어가 포트란이다. 비록 초기에는 능숙한 프로그래머가 짠 기계어에 비해 효율이
+떨어졌지만 코드량이 줄어듬과 동시에 읽기 쉬워짐에 따라 많이 사용되었다. &lt;/p&gt;
+&lt;h3 id=&quot;프로그램의-삼대미덕-중-하나인-게으름&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98-%EC%82%BC%EB%8C%80%EB%AF%B8%EB%8D%95-%EC%A4%91-%ED%95%98%EB%82%98%EC%9D%B8-%EA%B2%8C%EC%9C%BC%EB%A6%84&quot; aria-label=&quot;프로그램의 삼대미덕 중 하나인 게으름 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98-%EC%82%BC%EB%8C%80%EB%AF%B8%EB%8D%95-%EC%A4%91-%ED%95%98%EB%82%98%EC%9D%B8-%EA%B2%8C%EC%9C%BC%EB%A6%84&quot; aria-label=&quot;프로그램의 삼대미덕 중 하나인 게으름 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;프로그램의 삼대미덕 중 하나인 게으름&lt;/h3&gt;
+&lt;p&gt; 앞날 까지 생각해서 가장 편한 방법을 선택하는 것, 즉 같은 성과를 달성하는 다수의 방법 중 가장 생산성이 높은 것을 선택함.&lt;/p&gt;
+&lt;h3 id=&quot;무엇을-편하게-하고-싶은-것인가-어떤-프로그램을-편하게-만들고-싶은가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B4%EC%97%87%EC%9D%84-%ED%8E%B8%ED%95%98%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EA%B2%83%EC%9D%B8%EA%B0%80-%EC%96%B4%EB%96%A4-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84-%ED%8E%B8%ED%95%98%EA%B2%8C-%EB%A7%8C%EB%93%A4%EA%B3%A0-%EC%8B%B6%EC%9D%80%EA%B0%80&quot; aria-label=&quot;무엇을 편하게 하고 싶은 것인가 어떤 프로그램을 편하게 만들고 싶은가 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EB%AC%B4%EC%97%87%EC%9D%84-%ED%8E%B8%ED%95%98%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EA%B2%83%EC%9D%B8%EA%B0%80-%EC%96%B4%EB%96%A4-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84-%ED%8E%B8%ED%95%98%EA%B2%8C-%EB%A7%8C%EB%93%A4%EA%B3%A0-%EC%8B%B6%EC%9D%80%EA%B0%80&quot; aria-label=&quot;무엇을 편하게 하고 싶은 것인가 어떤 프로그램을 편하게 만들고 싶은가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;무엇을 편하게 하고 싶은 것인가?, 어떤 프로그램을 편하게 만들고 싶은가?&lt;/h3&gt;
+&lt;p&gt; 모든 언어의 존재 목적은 &apos;편리함&apos; 이라고 했지만 각 언어가 추구하는 &apos;편리함&apos;은 서로 다르다. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;빠른 실행속도 : c++&lt;/li&gt;
+&lt;li&gt;언어의 사양을 쉽게 파악 : Scheme&lt;/li&gt;
+&lt;li&gt;다른사람이 쓴 코드를 쉽게 해석할 수 있도록 : Python&lt;/li&gt;
+&lt;li&gt;웹서비스 : PHP&lt;/li&gt;
+&lt;li&gt;문장 처리 : Haskell, OCaml&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring in Action 5판 3챕터 에러]]></title><description><![CDATA[최근에 스프링 인 액션…]]></description><link>https://jiinwoo.github.io/spring-in-action-5-3ch-bug/</link><guid isPermaLink="false">https://jiinwoo.github.io/spring-in-action-5-3ch-bug/</guid><pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;최근에 스프링 인 액션 5 책을 보고있는데 문제점이 한두개가 아니다. 책 소개글에 이전 버전에 나타난 여러 문제들을 해결했다고
 나와있는데 전혀 그런 것 같지 않다. 가뜩이나 스프링 잘못해서 사서 공부하는데 해결하는데 시간이 더 많이 든다.. ㅠㅠ&lt;/p&gt;
 &lt;p&gt;또 예제 리파지토리는 실행해보고 올린것인지 의문이 든다. &lt;/p&gt;
 &lt;p&gt;우선 첫 번째로 헤맸던 것은&lt;/p&gt;
@@ -1028,231 +1078,7 @@ public class UserPrincipal implements UserDetails {
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 1 )]]></title><description><![CDATA[프로젝트 생성 위 커맨드로 프로젝트를 만들어주고 라우팅을 위해 다음을 설치한다. 이후 App.tsx 파일 안에 다음과 같이 라우팅 해줍니다. 일반적으로 react-router-dom 공식 사이트에서는 
-BrowserRouter…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_1/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_1/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;프로젝트-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;프로젝트 생성 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;프로젝트 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;프로젝트 생성&lt;/h2&gt;
-&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; &gt;
-          &lt;code slot=&quot;code&quot;&gt;npx create-react-app [프로젝트 명] --typescript&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;위 커맨드로 프로젝트를 만들어주고 라우팅을 위해 다음을 설치한다.&lt;/p&gt;
-&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; &gt;
-          &lt;code slot=&quot;code&quot;&gt;npm i react-router-dom @types/react-router-dom history&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;이후 App.tsx 파일 안에 다음과 같이 라우팅 해줍니다.&lt;/p&gt;
-&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
-          &lt;code slot=&quot;code&quot;&gt;import React from &amp;#39;react&amp;#39;;
-import {Router , Route, Switch} from &amp;#39;react-router-dom&amp;#39;;
-import {createBrowserHistory} from &amp;#39;history&amp;#39;;
-import LoginForm from &amp;#39;./components/LoginForm&amp;#39;;
-
-export const history = createBrowserHistory();
-
-function App() {
-  return (
-    &amp;lt;Router history={history}&amp;gt;
-      &amp;lt;Switch&amp;gt;
-        &amp;lt;Route component={LoginForm} to={&amp;quot;/login&amp;quot;} exact/&amp;gt;
-      &amp;lt;/Switch&amp;gt;
-    &amp;lt;/Router&amp;gt;
-  );
-}
-
-export default App;&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;일반적으로 &lt;a href=&quot;&amp;#x27;https://reacttraining.com/react-router/web/guides/quick-start&amp;#x27;&quot;&gt;react-router-dom&lt;/a&gt; 공식 사이트에서는
-BrowserRouter를 사용하는데 나 같은 경우에는 조금있다가 사용할 redux 미들웨어인 thunk 함수내에서 라우팅을 하기 위해서
-추상화된 BrowserRouter 대신 기본 Router를 사용하고 history를 직접 넣었다.&lt;/p&gt;
-&lt;p&gt;이제 로그인폼 컴포넌트를 만들어보자. &lt;/p&gt;
-&lt;deckgo-highlight-code language=&quot;nashorn&quot;  terminal=&quot;carbon&quot; &gt;
-          &lt;code slot=&quot;code&quot;&gt;npm i formik&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;사실 다른 form 상태관리 라이브러리는 사용해보지 않았다... 그냥 npm trend에서 많이 사용한다길래 선택한 것일 뿐
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/e5ca1/formik-npm-trend.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 40.54054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABYElEQVQoz1VS7VLEIAzs+z+kP3Q8r/X6AbQhQMK67amjzOyQhbDZAEOMESEEpJQwLQn32zu2eYK5QyzDW4NnhbuiO7l3tN7Rm3PdAHT8HYOZ/ZLX4ChpRk8Tcqu4lTvakdDvI7pNqPqBKI5JDY8x4/NlR+b5o/gFqY5BRFBqQzkr0pV/1yyto1Zgrx2Bc9Rv0NVOwdOlMD+IXUJ7MXbVMWgp2KRyo2E92pV8Cm/kB5NyNYobtJ0HDJ1CfsKfBq7y/YRfe4OqQuguc0+5HtQv8UhXNAf1JwrjM+cH6v85b+LKp2BGU4FVXnoVLGxpFKCRe+Mj6M6+N2IhHsRKTMQdSB/ojPs+wiJjDRhqLajhHba8wtY3lOUJX5/c0w0mn7A881VXuDzIN2In0hU7Z5cIp4nh7FtzpIkZOQW+6oqyjZC4ouYdyrUcVrScoHSqYUPjF6v8ajLPqGfMr3csLMRuvwDfXm+dlnRFWQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;formik npm trend&quot;
-        title=&quot;formik npm trend&quot;
-        src=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/fcda8/formik-npm-trend.png&quot;
-        srcset=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/12f09/formik-npm-trend.png 148w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/e4a3f/formik-npm-trend.png 295w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/fcda8/formik-npm-trend.png 590w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/efc66/formik-npm-trend.png 885w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/c83ae/formik-npm-trend.png 1180w,
-/static/dde9795b6b78bf67b44691cbe40c1b09/e5ca1/formik-npm-trend.png 1332w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-그리고 이거는 방금안 사실인데 그냥 formik만 사용하기엔 너무 밋밋해 보일 것같아서 antd를 사용해 기본적인 디자인을 주려했는데
-아예 결합된 라이브러리가 있었다. 그래서 설치했다.&lt;/p&gt;
-&lt;deckgo-highlight-code language=&quot;nashorn&quot;  terminal=&quot;carbon&quot; &gt;
-          &lt;code slot=&quot;code&quot;&gt;npm i formik-antd antd&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;기본적으로 form 상태 관리를 사용하지 않으면 다음과같이 코드량이 상당히 늘어나고 관리하기도 힘들다.&lt;/p&gt;
-&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
-          &lt;code slot=&quot;code&quot;&gt;import React , {useState, ChangeEvent}from &amp;#39;react&amp;#39;;
-
-function LoginForm () {
-  const [email,setEmail] = useState(&amp;#39;&amp;#39;)
-  const [password,setPassword] = useState(&amp;#39;&amp;#39;)
-  const onChangeEmail = (e : ChangeEvent&amp;lt;HTMLInputElement&amp;gt;)=&amp;gt;{
-      setEmail(e.target.value);
-  }
-  const onChangePassword = (e : ChangeEvent&amp;lt;HTMLInputElement&amp;gt;)=&amp;gt;{
-      setPassword(e.target.value);
-  }
-  return (
-      &amp;lt;form&amp;gt;
-        &amp;lt;input value={email} onChange={onChangeEmail}/&amp;gt;
-        &amp;lt;input value={password} onChange={onChangePassword}/&amp;gt;
-      &amp;lt;/form&amp;gt;  
-    )
-}&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;기본적으로 입력 받고 상태만 관리하는데 벌써 코드량이 많아졌다.. 물론 changeMethod도 하나로 하고 useState도 하나로면
-더 줄일 수 있겠으나 여간 귀찮은게 아니다. 그런데 formik 라이브러리를 사용하면&lt;/p&gt;
-&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
-          &lt;code slot=&quot;code&quot;&gt;import { Button } from &amp;#39;antd&amp;#39;;
-import React from &amp;#39;react&amp;#39;
-import { SubmitButton, Form, Input } from &amp;#39;formik-antd&amp;#39;
-import { Formik } from &amp;#39;formik&amp;#39;
-import { Link } from &amp;#39;react-router-dom&amp;#39;;
-
-export interface ILoginValue {
-  email: string;
-  password: string;
-}
-function LoginForm() {
-    const initialValue: ILoginValue = {email: &amp;#39;&amp;#39;, password: &amp;#39;&amp;#39;};
-    return (
-      &amp;lt;div style={{padding : &amp;#39;24px&amp;#39; , width: &amp;#39;300px&amp;#39;}}&amp;gt;
-        &amp;lt;Formik
-          initialValues={initialValue}
-          render={() =&amp;gt; (
-            &amp;lt;Form&amp;gt;
-              {/* every formik-antd component must have the &amp;#39;name&amp;#39; prop set: */}
-              &amp;lt;Input name=&amp;#39;email&amp;#39; placeholder=&amp;#39;이메일&amp;#39; /&amp;gt;
-              &amp;lt;Input name=&amp;#39;password&amp;#39; placeholder=&amp;#39;패스워드&amp;#39; /&amp;gt;
-              {/* the rest of the api stays as is */}
-              &amp;lt;SubmitButton&amp;gt;로그인&amp;lt;/SubmitButton&amp;gt;
-            &amp;lt;/Form&amp;gt;
-          )}
-          onSubmit={(value,helpers)=&amp;gt;{
-            setTimeout(()=&amp;gt;(helpers.setSubmitting(false)),200);
-            console.log(value);
-          }}/&amp;gt;
-        &amp;lt;Link to={&amp;quot;/signup&amp;quot;}&amp;gt;
-            &amp;lt;Button&amp;gt;회원가입하기&amp;lt;/Button&amp;gt;
-        &amp;lt;/Link&amp;gt;
-      &amp;lt;/div&amp;gt;
-    )
-}
-export default LoginForm;&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;다음과 같이 깔끔해진다. 로그인 만들었던 것 처럼 회원가입도 만들자!&lt;/p&gt;
-&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
-          &lt;code slot=&quot;code&quot;&gt;import React from &amp;#39;react&amp;#39;
-import { SubmitButton, Form, Input } from &amp;#39;formik-antd&amp;#39;
-import { Formik } from &amp;#39;formik&amp;#39;
-
-export interface ISignupValue {
-  email: string;
-  username: string;
-  password: string;
-}
-
-function SignUpForm() {
-  const initialValue: ISignupValue = {email: &amp;#39;&amp;#39;, username: &amp;#39;&amp;#39;, password: &amp;#39;&amp;#39;}
-  return (
-    &amp;lt;div style={{padding : &amp;#39;24px&amp;#39; , width: &amp;#39;300px&amp;#39;}}&amp;gt;
-      &amp;lt;Formik
-        initialValues={initialValue}
-        render={() =&amp;gt; (
-          &amp;lt;Form&amp;gt;
-            {/* every formik-antd component must have the &amp;#39;name&amp;#39; prop set: */}
-            &amp;lt;Input name=&amp;#39;email&amp;#39; placeholder=&amp;#39;이메일&amp;#39; /&amp;gt;
-            &amp;lt;Input name=&amp;#39;username&amp;#39; placeholder=&amp;#39;이름&amp;#39; /&amp;gt;
-            &amp;lt;Input name=&amp;#39;password&amp;#39; placeholder=&amp;#39;패스워드&amp;#39; /&amp;gt;
-            {/* the rest of the api stays as is */}
-            &amp;lt;SubmitButton&amp;gt;회원가입&amp;lt;/SubmitButton&amp;gt;
-          &amp;lt;/Form&amp;gt;
-        )}
-        onSubmit={(value,helpers)=&amp;gt;{
-          setTimeout(()=&amp;gt;(helpers.setSubmitting(false)),200);
-          console.log(value);
-        }}/&amp;gt;
-    &amp;lt;/div&amp;gt;
-  )
-}
-export default SignUpForm;&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 326px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/91ed7c60c05beeea003f48c853d365db/ce9b1/formik-login-form.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 61.48648648648649%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABIElEQVQoz6VSQU7DMBDMgQ/wBMQHeBSncuAHXFBBXBFH+AUScEBI9M6dUyUORakosQmOa3vtYe2SqK2oYmCk1TjJejxZTwFGCAEt4vqvFVHEBRHBGAOtNay18N7/uqJGJ+icg1INqqpCXdfw/O5fgs3cQGl2aGziZm7ZqYOzNjnOqRVBgB/sB7NmrpnNYp7Ix4rg1RPh6IFwOnIYjgjHj4TxO6WDnKPU3Ffxt78Fgb1LYPvMYefcYfeCsDUMuB+H5JF8/g13Dk/Y1f51wMEtcHjnMbgJeH6LTT45XN6wCa1wsbDqoeQM5eQFYlZCTF9RlhNIKbtbzMlo59DG2DQxNgKfHB8hJLNK2YyRWhbsQ9HX2H5bn9VGwfUNPw06VyziCyJ3pveFdjK1AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;formik login form&quot;
-        title=&quot;formik login form&quot;
-        src=&quot;/static/91ed7c60c05beeea003f48c853d365db/ce9b1/formik-login-form.png&quot;
-        srcset=&quot;/static/91ed7c60c05beeea003f48c853d365db/12f09/formik-login-form.png 148w,
-/static/91ed7c60c05beeea003f48c853d365db/e4a3f/formik-login-form.png 295w,
-/static/91ed7c60c05beeea003f48c853d365db/ce9b1/formik-login-form.png 326w&quot;
-        sizes=&quot;(max-width: 326px) 100vw, 326px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;그리고 라우팅도 추가해주자&lt;/p&gt;
-&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
-          &lt;code slot=&quot;code&quot;&gt;import React from &amp;#39;react&amp;#39;;
-import {Router , Route} from &amp;#39;react-router-dom&amp;#39;;
-import {createBrowserHistory} from &amp;#39;history&amp;#39;;
-import LoginForm from &amp;#39;./components/LoginForm&amp;#39;;
-import SignUpForm from &amp;#39;./components/SignUpForm&amp;#39;;
-
-export const history = createBrowserHistory();
-
-function App() {
-  return (
-    &amp;lt;Router history={history}&amp;gt;
-      &amp;lt;Route exact component={LoginForm} to={&amp;quot;/login&amp;quot;} /&amp;gt;
-      &amp;lt;Route exact component={SignUpForm} to={&amp;quot;/signup&amp;quot;}/&amp;gt;
-    &amp;lt;/Router&amp;gt;
-  );
-}
-
-export default App;&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;기본적인 회원가입 및 로그인 컴포넌트를 완성했다.&lt;/p&gt;
-&lt;p&gt;다음 포스트에서는 Spring Boot를 활용한 JWT 로그인, 회원가입을 구현해볼 예정이다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 2 )]]></title><description><![CDATA[Spring은 배운지 얼마안됐고 security는 더더욱 안됐다. 정확하지 않을 수 있습니다. springboot 프로젝트 생성 나는 Intellij 안의 spring initializer…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_2/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_2/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 2 )]]></title><description><![CDATA[Spring은 배운지 얼마안됐고 security는 더더욱 안됐다. 정확하지 않을 수 있습니다. springboot 프로젝트 생성 나는 Intellij 안의 spring initializer…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_2/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_2/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Spring은 배운지 얼마안됐고 security는 더더욱 안됐다.&lt;/p&gt;
 &lt;p&gt;정확하지 않을 수 있습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1641,19 +1467,228 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 &lt;li&gt;UserDetailsService 구현체 CustomUserDetailsService&lt;/li&gt;
 &lt;li&gt;ErrorResponseDTO&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;는 다음포스트에서 만들자&lt;/p&gt;</content:encoded></item><item><title><![CDATA[StyledComponent v4 빌드 에러 및 nextjs에서 v5 이슈]]></title><description><![CDATA[오늘 업무를 하던 도중 styled-components v4버전 대에 build할 때 에러가 있었고 그에러가 뭐였는지 기억이 안나는데
-대충 깃헙이슈를 보니 v5 최신버전을 설치하거나 특정 type을 삭제하고 @type…]]></description><link>https://jiinwoo.github.io/styled-components-build-error-with-nextjs/</link><guid isPermaLink="false">https://jiinwoo.github.io/styled-components-build-error-with-nextjs/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;오늘 업무를 하던 도중 styled-components v4버전 대에 build할 때 에러가 있었고 그에러가 뭐였는지 기억이 안나는데
-대충 깃헙이슈를 보니 v5 최신버전을 설치하거나 특정 type을 삭제하고 @type에 커스텀해서 추가하라는데 귀찮아서
-그냥 v5를 새로설치했다. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;사실 앞 버전 올리는데 그냥 올리면 무슨일이 터질까 매우 고민을 했지만 v5 release 문서를 보면 &lt;a href=&quot;https://styled-components.com/releases&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&quot;no breaking changes!&quot;&lt;/a&gt;
-라는데 큰 변화없이 속도향상을 줄수있다고 적혀있다. 그래서 그냥 업데이트 했다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;그래서 설치하고 release branch에 배포했는데 html, body 등등 전역에 지정한 createGlobalStyle 메소드가 제대로 적용되지 않았다.&lt;/p&gt;
-&lt;p&gt;현재 v5 styled-components의 createGlobalStyle을 next js 의 _document.tsx 내에 next/head 컴포넌트 안에서 렌더링할 때
-적용이 되지않는 문제가 있었다. &lt;/p&gt;
-&lt;p&gt;여러가지 구글링을 해본 결과 _app.tsx에 createGlobalStyle을 적용해서 해결했다.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;지금 styled-components github issue 가보면 이 관련 이슈가 꽤 있는것 같다 나는 귀찮아서 그냥 넘어갔지만 얼른 누가 해결해줬으면
-좋겠다. &lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;는 다음포스트에서 만들자&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot, React 사용해 Trello 클론코딩하기 ( 1 )]]></title><description><![CDATA[프로젝트 생성 위 커맨드로 프로젝트를 만들어주고 라우팅을 위해 다음을 설치한다. 이후 App.tsx 파일 안에 다음과 같이 라우팅 해줍니다. 일반적으로 react-router-dom 공식 사이트에서는 
+BrowserRouter…]]></description><link>https://jiinwoo.github.io/springboot-react-trello_1/</link><guid isPermaLink="false">https://jiinwoo.github.io/springboot-react-trello_1/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;프로젝트-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;프로젝트 생성 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;프로젝트 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;프로젝트 생성&lt;/h2&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;npx create-react-app [프로젝트 명] --typescript&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;위 커맨드로 프로젝트를 만들어주고 라우팅을 위해 다음을 설치한다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;npm i react-router-dom @types/react-router-dom history&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이후 App.tsx 파일 안에 다음과 같이 라우팅 해줍니다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;import React from &amp;#39;react&amp;#39;;
+import {Router , Route, Switch} from &amp;#39;react-router-dom&amp;#39;;
+import {createBrowserHistory} from &amp;#39;history&amp;#39;;
+import LoginForm from &amp;#39;./components/LoginForm&amp;#39;;
+
+export const history = createBrowserHistory();
+
+function App() {
+  return (
+    &amp;lt;Router history={history}&amp;gt;
+      &amp;lt;Switch&amp;gt;
+        &amp;lt;Route component={LoginForm} to={&amp;quot;/login&amp;quot;} exact/&amp;gt;
+      &amp;lt;/Switch&amp;gt;
+    &amp;lt;/Router&amp;gt;
+  );
+}
+
+export default App;&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;일반적으로 &lt;a href=&quot;&amp;#x27;https://reacttraining.com/react-router/web/guides/quick-start&amp;#x27;&quot;&gt;react-router-dom&lt;/a&gt; 공식 사이트에서는
+BrowserRouter를 사용하는데 나 같은 경우에는 조금있다가 사용할 redux 미들웨어인 thunk 함수내에서 라우팅을 하기 위해서
+추상화된 BrowserRouter 대신 기본 Router를 사용하고 history를 직접 넣었다.&lt;/p&gt;
+&lt;p&gt;이제 로그인폼 컴포넌트를 만들어보자. &lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;nashorn&quot;  terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;npm i formik&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;사실 다른 form 상태관리 라이브러리는 사용해보지 않았다... 그냥 npm trend에서 많이 사용한다길래 선택한 것일 뿐
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/e5ca1/formik-npm-trend.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40.54054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABYElEQVQoz1VS7VLEIAzs+z+kP3Q8r/X6AbQhQMK67amjzOyQhbDZAEOMESEEpJQwLQn32zu2eYK5QyzDW4NnhbuiO7l3tN7Rm3PdAHT8HYOZ/ZLX4ChpRk8Tcqu4lTvakdDvI7pNqPqBKI5JDY8x4/NlR+b5o/gFqY5BRFBqQzkr0pV/1yyto1Zgrx2Bc9Rv0NVOwdOlMD+IXUJ7MXbVMWgp2KRyo2E92pV8Cm/kB5NyNYobtJ0HDJ1CfsKfBq7y/YRfe4OqQuguc0+5HtQv8UhXNAf1JwrjM+cH6v85b+LKp2BGU4FVXnoVLGxpFKCRe+Mj6M6+N2IhHsRKTMQdSB/ojPs+wiJjDRhqLajhHba8wtY3lOUJX5/c0w0mn7A881VXuDzIN2In0hU7Z5cIp4nh7FtzpIkZOQW+6oqyjZC4ouYdyrUcVrScoHSqYUPjF6v8ajLPqGfMr3csLMRuvwDfXm+dlnRFWQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;formik npm trend&quot;
+        title=&quot;formik npm trend&quot;
+        src=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/fcda8/formik-npm-trend.png&quot;
+        srcset=&quot;/static/dde9795b6b78bf67b44691cbe40c1b09/12f09/formik-npm-trend.png 148w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/e4a3f/formik-npm-trend.png 295w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/fcda8/formik-npm-trend.png 590w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/efc66/formik-npm-trend.png 885w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/c83ae/formik-npm-trend.png 1180w,
+/static/dde9795b6b78bf67b44691cbe40c1b09/e5ca1/formik-npm-trend.png 1332w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+그리고 이거는 방금안 사실인데 그냥 formik만 사용하기엔 너무 밋밋해 보일 것같아서 antd를 사용해 기본적인 디자인을 주려했는데
+아예 결합된 라이브러리가 있었다. 그래서 설치했다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;nashorn&quot;  terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;npm i formik-antd antd&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;기본적으로 form 상태 관리를 사용하지 않으면 다음과같이 코드량이 상당히 늘어나고 관리하기도 힘들다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;import React , {useState, ChangeEvent}from &amp;#39;react&amp;#39;;
+
+function LoginForm () {
+  const [email,setEmail] = useState(&amp;#39;&amp;#39;)
+  const [password,setPassword] = useState(&amp;#39;&amp;#39;)
+  const onChangeEmail = (e : ChangeEvent&amp;lt;HTMLInputElement&amp;gt;)=&amp;gt;{
+      setEmail(e.target.value);
+  }
+  const onChangePassword = (e : ChangeEvent&amp;lt;HTMLInputElement&amp;gt;)=&amp;gt;{
+      setPassword(e.target.value);
+  }
+  return (
+      &amp;lt;form&amp;gt;
+        &amp;lt;input value={email} onChange={onChangeEmail}/&amp;gt;
+        &amp;lt;input value={password} onChange={onChangePassword}/&amp;gt;
+      &amp;lt;/form&amp;gt;  
+    )
+}&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;기본적으로 입력 받고 상태만 관리하는데 벌써 코드량이 많아졌다.. 물론 changeMethod도 하나로 하고 useState도 하나로면
+더 줄일 수 있겠으나 여간 귀찮은게 아니다. 그런데 formik 라이브러리를 사용하면&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;import { Button } from &amp;#39;antd&amp;#39;;
+import React from &amp;#39;react&amp;#39;
+import { SubmitButton, Form, Input } from &amp;#39;formik-antd&amp;#39;
+import { Formik } from &amp;#39;formik&amp;#39;
+import { Link } from &amp;#39;react-router-dom&amp;#39;;
+
+export interface ILoginValue {
+  email: string;
+  password: string;
+}
+function LoginForm() {
+    const initialValue: ILoginValue = {email: &amp;#39;&amp;#39;, password: &amp;#39;&amp;#39;};
+    return (
+      &amp;lt;div style={{padding : &amp;#39;24px&amp;#39; , width: &amp;#39;300px&amp;#39;}}&amp;gt;
+        &amp;lt;Formik
+          initialValues={initialValue}
+          render={() =&amp;gt; (
+            &amp;lt;Form&amp;gt;
+              {/* every formik-antd component must have the &amp;#39;name&amp;#39; prop set: */}
+              &amp;lt;Input name=&amp;#39;email&amp;#39; placeholder=&amp;#39;이메일&amp;#39; /&amp;gt;
+              &amp;lt;Input name=&amp;#39;password&amp;#39; placeholder=&amp;#39;패스워드&amp;#39; /&amp;gt;
+              {/* the rest of the api stays as is */}
+              &amp;lt;SubmitButton&amp;gt;로그인&amp;lt;/SubmitButton&amp;gt;
+            &amp;lt;/Form&amp;gt;
+          )}
+          onSubmit={(value,helpers)=&amp;gt;{
+            setTimeout(()=&amp;gt;(helpers.setSubmitting(false)),200);
+            console.log(value);
+          }}/&amp;gt;
+        &amp;lt;Link to={&amp;quot;/signup&amp;quot;}&amp;gt;
+            &amp;lt;Button&amp;gt;회원가입하기&amp;lt;/Button&amp;gt;
+        &amp;lt;/Link&amp;gt;
+      &amp;lt;/div&amp;gt;
+    )
+}
+export default LoginForm;&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;다음과 같이 깔끔해진다. 로그인 만들었던 것 처럼 회원가입도 만들자!&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;import React from &amp;#39;react&amp;#39;
+import { SubmitButton, Form, Input } from &amp;#39;formik-antd&amp;#39;
+import { Formik } from &amp;#39;formik&amp;#39;
+
+export interface ISignupValue {
+  email: string;
+  username: string;
+  password: string;
+}
+
+function SignUpForm() {
+  const initialValue: ISignupValue = {email: &amp;#39;&amp;#39;, username: &amp;#39;&amp;#39;, password: &amp;#39;&amp;#39;}
+  return (
+    &amp;lt;div style={{padding : &amp;#39;24px&amp;#39; , width: &amp;#39;300px&amp;#39;}}&amp;gt;
+      &amp;lt;Formik
+        initialValues={initialValue}
+        render={() =&amp;gt; (
+          &amp;lt;Form&amp;gt;
+            {/* every formik-antd component must have the &amp;#39;name&amp;#39; prop set: */}
+            &amp;lt;Input name=&amp;#39;email&amp;#39; placeholder=&amp;#39;이메일&amp;#39; /&amp;gt;
+            &amp;lt;Input name=&amp;#39;username&amp;#39; placeholder=&amp;#39;이름&amp;#39; /&amp;gt;
+            &amp;lt;Input name=&amp;#39;password&amp;#39; placeholder=&amp;#39;패스워드&amp;#39; /&amp;gt;
+            {/* the rest of the api stays as is */}
+            &amp;lt;SubmitButton&amp;gt;회원가입&amp;lt;/SubmitButton&amp;gt;
+          &amp;lt;/Form&amp;gt;
+        )}
+        onSubmit={(value,helpers)=&amp;gt;{
+          setTimeout(()=&amp;gt;(helpers.setSubmitting(false)),200);
+          console.log(value);
+        }}/&amp;gt;
+    &amp;lt;/div&amp;gt;
+  )
+}
+export default SignUpForm;&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 326px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/91ed7c60c05beeea003f48c853d365db/ce9b1/formik-login-form.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.48648648648649%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABIElEQVQoz6VSQU7DMBDMgQ/wBMQHeBSncuAHXFBBXBFH+AUScEBI9M6dUyUORakosQmOa3vtYe2SqK2oYmCk1TjJejxZTwFGCAEt4vqvFVHEBRHBGAOtNay18N7/uqJGJ+icg1INqqpCXdfw/O5fgs3cQGl2aGziZm7ZqYOzNjnOqRVBgB/sB7NmrpnNYp7Ix4rg1RPh6IFwOnIYjgjHj4TxO6WDnKPU3Ffxt78Fgb1LYPvMYefcYfeCsDUMuB+H5JF8/g13Dk/Y1f51wMEtcHjnMbgJeH6LTT45XN6wCa1wsbDqoeQM5eQFYlZCTF9RlhNIKbtbzMlo59DG2DQxNgKfHB8hJLNK2YyRWhbsQ9HX2H5bn9VGwfUNPw06VyziCyJ3pveFdjK1AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;formik login form&quot;
+        title=&quot;formik login form&quot;
+        src=&quot;/static/91ed7c60c05beeea003f48c853d365db/ce9b1/formik-login-form.png&quot;
+        srcset=&quot;/static/91ed7c60c05beeea003f48c853d365db/12f09/formik-login-form.png 148w,
+/static/91ed7c60c05beeea003f48c853d365db/e4a3f/formik-login-form.png 295w,
+/static/91ed7c60c05beeea003f48c853d365db/ce9b1/formik-login-form.png 326w&quot;
+        sizes=&quot;(max-width: 326px) 100vw, 326px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그리고 라우팅도 추가해주자&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;tsx&quot;  terminal=&quot;carbon&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;import React from &amp;#39;react&amp;#39;;
+import {Router , Route} from &amp;#39;react-router-dom&amp;#39;;
+import {createBrowserHistory} from &amp;#39;history&amp;#39;;
+import LoginForm from &amp;#39;./components/LoginForm&amp;#39;;
+import SignUpForm from &amp;#39;./components/SignUpForm&amp;#39;;
+
+export const history = createBrowserHistory();
+
+function App() {
+  return (
+    &amp;lt;Router history={history}&amp;gt;
+      &amp;lt;Route exact component={LoginForm} to={&amp;quot;/login&amp;quot;} /&amp;gt;
+      &amp;lt;Route exact component={SignUpForm} to={&amp;quot;/signup&amp;quot;}/&amp;gt;
+    &amp;lt;/Router&amp;gt;
+  );
+}
+
+export default App;&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;기본적인 회원가입 및 로그인 컴포넌트를 완성했다.&lt;/p&gt;
+&lt;p&gt;다음 포스트에서는 Spring Boot를 활용한 JWT 로그인, 회원가입을 구현해볼 예정이다. &lt;/p&gt;</content:encoded></item></channel></rss>
